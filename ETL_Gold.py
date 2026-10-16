@@ -75,20 +75,6 @@ def executar_gold():
     dim_geo = df[['UF_RFB', 'MUNICIPIO_RFB']].dropna().drop_duplicates().reset_index(drop=True)
     dim_geo['ID_GEOGRAFIA'] = dim_geo.index + 1
 
-    # 4. Dimensão Fornecedor (Completa e integrada)
-    print("[GOLD] Gerando Dimensao Fornecedores...")
-    cols_dim = [
-        'ID_FORNECEDOR', 'CNPJ_LIMPO', 'CNPJ_RAIZ', 'MATRIZ_FILIAL',
-        'RAZAO_SOCIAL_INFORMADA', 'SITUACAO_CADASTRAL','DATA_SITUACAO_CADASTRAL', 'DESCRICAO_SITUACAO',
-        'CNAE_PRINCIPAL_CODIGO', 'CNAE_PRINCIPAL_DESCRICAO', 'UF_RFB', 'MUNICIPIO_RFB'
-    ]
-    cols_presentes = [c for c in cols_dim if c in df.columns]
-    dim_fornecedores = df[cols_presentes].drop_duplicates().copy()
-    
-    if 'UF_RFB' in dim_fornecedores.columns and 'MUNICIPIO_RFB' in dim_fornecedores.columns and not dim_geo.empty:
-        dim_fornecedores = pd.merge(dim_fornecedores, dim_geo, on=['UF_RFB', 'MUNICIPIO_RFB'], how='left')
-        # Mantemos UF_RFB e MUNICIPIO_RFB aqui para o Dashboard do app.py cruzar diretamente de forma robusta
-
     # 5. Tabela Fato Completa (Mantendo todas as colunas de auditoria e os metadados de negocio)
     print("[GOLD] Gerando Tabela Fato de Auditoria Completa...")
     fato_fornecedores = df.copy()
@@ -106,15 +92,42 @@ def executar_gold():
             (fato_fornecedores['DESCRICAO_SITUACAO_RFB'].isin(['BAIXADA', 'INAPTA', 'SUSPENSA', 'NULA'])),
             'RISCO_CADASTRAL'
         ] = 'Critico'
-        # fato_fornecedores.drop(columns=['DESCRICAO_SITUACAO_RFB'], inplace=True, errors='ignore')
+        fato_fornecedores.drop(columns=['DESCRICAO_SITUACAO_RFB'], inplace=True, errors='ignore')
+
+    # 4. Dimensão Fornecedor (Completa e integrada)
+    print("[GOLD] Gerando Dimensao situacao cadastral...")
+    cols_dim = [
+        'SITUACAO_CADASTRAL','DESCRICAO_SITUACAO'
+    ]
+    cols_presentes = [c for c in cols_dim if c in fato_fornecedores.columns]
+    dim_situacao = df[cols_presentes].drop_duplicates().copy()
+
+    # 5, Dimensão Categoria de serviço
+    print("[GOLD] Gerando Dimensao categoria...")
+    cols_dim_cat = [
+            'CATEGORIA_FORNECIMENTO'
+        ]
+    cols_presentes = [c for c in cols_dim_cat if c in df.columns]
+    dim_cat = df[cols_presentes].drop_duplicates().copy()
 
 
-    fato_fornecedores = fato_fornecedores[['ID_FORNECEDOR','CNAE_PRINCIPAL_CODIGO','CNAES_SECUNDARIOS','CNPJ','CATEGORIA_FORNECIMENTO',
-                          'CNPJ_VALIDO','DATA_ULTIMO_PAGAMENTO','RISCO_CADASTRAL','DESCRICAO_SITUACAO','STATUS_HOMOLOGACAO',
-                          'VALOR_CONTRATADO_ANUAL']]
+    #6. Dimensão fornecedor
+    print("[GOLD] Gerando Dimensao fornecedor...")
+    cols_dim_cat = [
+            'ID_FORNECEDOR','RAZAO_SOCIAL_INFORMADA','VALOR_CONTRATADO_ANUAL','STATUS_HOMOLOGACAO','DATA_ULTIMO_PAGAMENTO',
+            'CNPJ_LIMPO','CNPJ_VALIDO', 'CNPJ_RAIZ','MATRIZ_FILIAL',''
+        ]
+    cols_presentes = [c for c in cols_dim_cat if c in df.columns]
+    dim_cat = df[cols_presentes].drop_duplicates().copy()
 
+
+    fato_fornecedores = fato_fornecedores[['ID_FORNECEDOR','SITUACAO_CADASTRAL' ,'CNAE_PRINCIPAL_CODIGO',
+                                           'CATEGORIA_FORNECIMENTO','MUNICIPIO_RFB']]
+
+    
     # Salvando os arquivos modelados na camada Gold
-    dim_fornecedores.to_csv(os.path.join(GOLD_DIR, 'dim_fornecedores.csv'), index=False, encoding='utf-8')
+    dim_situacao.to_csv(os.path.join(GOLD_DIR, 'dim_situacao_cadastral.csv'), index=False, encoding='utf-8')
+    dim_cat.to_csv(os.path.join(GOLD_DIR, 'dim_categoria_fornecimento.csv'), index=False, encoding='utf-8')
     dim_cnae.to_csv(os.path.join(GOLD_DIR, 'dim_cnae.csv'), index=False, encoding='utf-8')
     dim_geo.to_csv(os.path.join(GOLD_DIR, 'dim_geografia.csv'), index=False, encoding='utf-8')
     df_bridge.to_csv(os.path.join(GOLD_DIR, 'bridge_fornecedores_cnae.csv'), index=False, encoding='utf-8')
