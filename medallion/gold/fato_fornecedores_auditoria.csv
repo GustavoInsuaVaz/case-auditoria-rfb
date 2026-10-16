@@ -15,7 +15,7 @@ FORN-00713,4751201.0,"9511800,4752100,9512600",59170355000171,Suprimentos e Equi
 FORN-01383,4744099.0,4330402,59164197000147,Segurança Patrimonial e Portaria,True,2026-01-03,Critico,BAIXADA,Homologado,642688.45
 FORN-00071,8219999.0,,59161101000197,Serviços de Tecnologia e Software,True,2026-02-23,Regular,ATIVA,Homologado,281307.08
 FORN-01269,5620104.0,,59178398000101,Engenharia e Manutenção Predial,True,2026-07-04,Regular,ATIVA,Homologado,179941.58
-FORN-INV027,,,62000000000144,Segurança Patrimonial e Portaria,False,2026-08-21,Regular,,Homologado,76065.25
+FORN-INV027,,,62000000000144,Segurança Patrimonial e Portaria,False,2026-08-21,Critico (CNPJ Invalido),,Homologado,76065.25
 FORN-00608,8112500.0,,59168897000100,"Logística, Transporte e Frota",True,2026-02-17,Regular,ATIVA,Homologado,96536.6
 FORN-00434,5620102.0,,59.166.368/0001-77,Segurança Patrimonial e Portaria,True,2026-01-24,Regular,ATIVA,Homologado,34189.57
 FORN-00052,1031700.0,,59160817000170,Serviços de Tecnologia e Software,True,2026-09-02,Regular,ATIVA,Homologado,283604.17
@@ -26,7 +26,7 @@ FORN-01250,8599699.0,,59178102000144,"Logística, Transporte e Frota",True,2026-
 FORN-01420,4543900.0,"4541206,4541207",54.639.710/0001-95,Serviços Jurídicos e Contábeis,True,2026-01-07,Critico,INAPTA,Em Análise Periódica,503917.56
 FORN-00433,161003.0,"3314712,4520001",59166357000197,Engenharia e Manutenção Predial,True,2026-03-24,Regular,ATIVA,Homologado,188323.02
 FORN-01453,6619302.0,6499999,59163993000165,Serviços de Tecnologia e Software,True,2026-02-13,Critico,SUSPENSA,Em Análise Periódica,380729.92
-FORN-INV006,,,72000000000122,Consultoria e Auditoria Empresarial,False,2026-08-11,Regular,,Homologado,120446.61
+FORN-INV006,,,72000000000122,Consultoria e Auditoria Empresarial,False,2026-08-11,Critico (CNPJ Invalido),,Homologado,120446.61
 FORN-01235,8599604.0,,59177797000140,"Logística, Transporte e Frota",True,2026-01-03,Regular,ATIVA,Homologado,204827.25
 FORN-01282,7420001.0,,59178615000155,Engenharia e Manutenção Predial,True,2026-05-25,Regular,ATIVA,Homologado,233200.2
 FORN-01086,8599604.0,8599605,59175634000128,Serviços Jurídicos e Contábeis,True,2026-02-20,Regular,ATIVA,Homologado,128397.74
@@ -132,7 +132,7 @@ FORN-00463,8211300.0,,59.166.776/0001-29,Serviços de Tecnologia e Software,True
 FORN-01244,6821801.0,"6821802,8211300",59177966000141,Engenharia e Manutenção Predial,True,2026-08-21,Regular,ATIVA,Homologado,350327.87
 FORN-00079,5211799.0,4679602,12935977000260,Engenharia e Manutenção Predial,True,2026-01-28,Regular,ATIVA,Em Análise Periódica,94900.68
 FORN-01005,5320201.0,"4781400,7319002,1629301,4930201,4783102",59174499000104,"Marketing, Mídia e Eventos",True,2026-09-15,Regular,ATIVA,Homologado,310702.89
-FORN-INV026,,,50000000000118,Consultoria e Auditoria Empresarial,False,2026-08-28,Regular,,Homologado,52545.28
+FORN-INV026,,,50000000000118,Consultoria e Auditoria Empresarial,False,2026-08-28,Critico (CNPJ Invalido),,Homologado,52545.28
 FORN-00572,1412601.0,,59168409000164,Suprimentos e Equipamentos de Escritório,True,2026-09-21,Regular,ATIVA,Homologado,290556.91
 FORN-00016,8650003.0,8650005,59160369000104,Consultoria e Auditoria Empresarial,True,2026-01-08,Regular,ATIVA,Homologado,51470.06
 FORN-00495,7020400.0,"6920602,6920601,8211300",59.167.165/0001-03,Consultoria e Auditoria Empresarial,True,2026-03-01,Regular,ATIVA,Homologado,127150.55
@@ -141,7 +141,7 @@ FORN-01000,9602501.0,,59.174.410/0001-00,Serviços Jurídicos e Contábeis,True,
 FORN-00275,7112000.0,,59.164.045/0001-44,Serviços Jurídicos e Contábeis,True,2026-03-05,Regular,ATIVA,Em Análise Periódica,143896.78
 FORN-01192,9700500.0,,59.177.192/0001-59,Serviços de Tecnologia e Software,True,2026-09-05,Regular,ATIVA,Em Análise Periódica,172082.71
 FORN-00272,5320201.0,"5212500,4930201",59.164.013/0001-49,Serviços Jurídicos e Contábeis,True,2026-05-02,Regular,ATIVA,Homologado,314039.08
-FORN-INV009,,,35000000000173,Engenharia e Manutenção Predial,False,2026-08-27,Regular,,Homologado,82130.01
+FORN-INV009,,,35000000000173,Engenharia e Manutenção Predial,False,2026-08-27,Critico (CNPJ Invalido),,Homologado,82130.01
 FORN-00238,2391503.0,"4930202,5320201",57002178000199,Consultoria e Auditoria Empresarial,True,2026-03-26,Regular,ATIVA,Homologado,19430.97
 FORN-00586,4692300.0,"4612500,4623106,4623199,4632001,4644302,4683400,4771704,4789002,4789004,4930201,4930202,7319002,7490103",59168582000162,Engenharia e Manutenção Predial,True,2026-07-02,Regular,ATIVA,Homologado,64433.12
 FORN-01313,8219999.0,,59160955000159,"Logística, Transporte e Frota",True,2026-09-15,Critico,BAIXADA,Homologado,157770.9
@@ -152,7 +152,7 @@ FORN-00783,4399103.0,,59.171.402/0001-00,Segurança Patrimonial e Portaria,True,
 FORN-01359,8230001.0,,59.163.057/0001-54,Suprimentos e Equipamentos de Escritório,True,2026-05-03,Critico,BAIXADA,Homologado,73339.42
 FORN-01204,9521500.0,,59177406000197,Engenharia e Manutenção Predial,True,2026-06-18,Regular,ATIVA,Homologado,85377.44
 FORN-00971,4723700.0,"5611201,5611203",59174040000100,"Marketing, Mídia e Eventos",True,2026-09-06,Regular,ATIVA,Homologado,211139.87
-FORN-INV002,,,94000000000164,Suprimentos e Equipamentos de Escritório,False,2026-08-09,Regular,,Homologado,473583.57
+FORN-INV002,,,94000000000164,Suprimentos e Equipamentos de Escritório,False,2026-08-09,Critico (CNPJ Invalido),,Homologado,473583.57
 FORN-00527,8599699.0,,59.167.642/0001-22,"Logística, Transporte e Frota",True,2026-05-10,Regular,ATIVA,Homologado,111450.29
 FORN-01426,6821801.0,6821802,46693494000138,Consultoria e Auditoria Empresarial,True,2026-02-04,Critico,INAPTA,Homologado,619044.78
 FORN-01171,2539001.0,"5021101,5612100,5011401,4930204,4923001,5091202,4930201,4923002,5091201",59176902000126,"Marketing, Mídia e Eventos",True,2026-09-19,Regular,ATIVA,Homologado,187715.31
@@ -165,7 +165,7 @@ FORN-01027,5620104.0,"5611201,5611203",59.174.808/0001-38,Consultoria e Auditori
 FORN-01402,4781400.0,"4742300,4751201,4763604,4753900,4772500,4744099",50.667.968/0001-44,"Marketing, Mídia e Eventos",True,2026-01-28,Critico,INAPTA,Homologado,48023.75
 FORN-00102,5611203.0,"4721103,4721104,4729602,4729699",59161542000199,Engenharia e Manutenção Predial,True,2026-03-26,Regular,ATIVA,Em Análise Periódica,197111.32
 FORN-00108,8219999.0,5819100,59.161.619/0001-20,"Logística, Transporte e Frota",True,2026-07-23,Regular,ATIVA,Homologado,268574.85
-FORN-INV025,,,97000000000148,Suprimentos e Equipamentos de Escritório,False,2026-08-14,Regular,,Homologado,91455.75
+FORN-INV025,,,97000000000148,Suprimentos e Equipamentos de Escritório,False,2026-08-14,Critico (CNPJ Invalido),,Homologado,91455.75
 FORN-01053,8219999.0,"5911199,5912099,9002701",59.175.163/0001-58,Serviços Jurídicos e Contábeis,True,2026-09-06,Critico,BAIXADA,Homologado,518638.53
 FORN-00965,5611203.0,"1096100,4723700,9512600,5611204,5320202,5620104,4752100,5620102,4322302,4759899,4321500,4753900,4789007",59173917000130,Segurança Patrimonial e Portaria,True,2026-05-23,Regular,ATIVA,Homologado,76317.39
 FORN-00381,4712100.0,"5320202,4930201,5320201,4930202",59165570000184,Suprimentos e Equipamentos de Escritório,True,2026-08-03,Regular,ATIVA,Homologado,37635.02
@@ -301,11 +301,11 @@ FORN-01151,4772500.0,"4759899,4789001",59176593000194,Serviços Jurídicos e Con
 FORN-00825,1830003.0,"6202300,6203100,6204000,6209100,8211300",53.178.890/0001-92,Serviços Jurídicos e Contábeis,True,2026-06-27,Regular,ATIVA,Homologado,153758.94
 FORN-00383,9602501.0,"4723700,4772500,8219999",59165593000199,"Marketing, Mídia e Eventos",True,2026-03-11,Regular,ATIVA,Homologado,193451.85
 FORN-00539,7319002.0,5819100,59167840000196,Consultoria e Auditoria Empresarial,True,2026-05-27,Regular,ATIVA,Em Análise Periódica,122788.83
-FORN-INV029,,,40000000000124,"Logística, Transporte e Frota",False,2026-08-07,Regular,,Homologado,29121.57
+FORN-INV029,,,40000000000124,"Logística, Transporte e Frota",False,2026-08-07,Critico (CNPJ Invalido),,Homologado,29121.57
 FORN-01113,4923002.0,,59176088000140,"Marketing, Mídia e Eventos",True,2026-01-10,Regular,ATIVA,Homologado,60606.2
 FORN-00325,4729699.0,4772500,42.738.198/0002-36,"Marketing, Mídia e Eventos",True,2026-03-02,Regular,ATIVA,Homologado,572658.63
 FORN-00362,8599604.0,"4930201,4330404,4399103,5320201",59.165.273/0001-39,Engenharia e Manutenção Predial,True,2026-06-23,Regular,ATIVA,Homologado,200548.89
-FORN-INV023,,,90000000000117,Consultoria e Auditoria Empresarial,False,2026-08-12,Regular,,Homologado,162677.18
+FORN-INV023,,,90000000000117,Consultoria e Auditoria Empresarial,False,2026-08-12,Critico (CNPJ Invalido),,Homologado,162677.18
 FORN-01030,5819100.0,"9001906,9511800,6190699,1813001,7319002,4329101,8230001,7420004,7420003,5912099,8599603,7420002,7420001",59.174.852/0001-48,Serviços de Tecnologia e Software,True,2026-02-10,Regular,ATIVA,Homologado,332807.56
 FORN-00708,8711502.0,8711505,59.170.301/0001-06,"Logística, Transporte e Frota",True,2026-09-03,Regular,ATIVA,Homologado,313812.71
 FORN-00333,5912099.0,,59.164.844/0001-10,"Logística, Transporte e Frota",True,2026-09-12,Regular,ATIVA,Homologado,17609.65
@@ -329,9 +329,9 @@ FORN-00087,4781400.0,"4530703,4541202,4742300,4743100,4744001,4744003,4744004,47
 FORN-01422,4744099.0,5611201,2577964000203,Segurança Patrimonial e Portaria,True,2026-02-26,Critico,INAPTA,Homologado,142390.05
 FORN-00266,4752100.0,"6190699,7490104,8299799,9529199",12.309.173/0019-02,Serviços de Tecnologia e Software,True,2026-09-07,Regular,ATIVA,Homologado,258006.16
 FORN-00288,7020400.0,"7810800,8211300",59164221000148,Engenharia e Manutenção Predial,True,2026-08-15,Regular,ATIVA,Homologado,155813.03
-FORN-INV019,,,75000000000168,"Logística, Transporte e Frota",False,2026-08-01,Regular,,Homologado,20693.04
+FORN-INV019,,,75000000000168,"Logística, Transporte e Frota",False,2026-08-01,Critico (CNPJ Invalido),,Homologado,20693.04
 FORN-00893,8610101.0,"8610102,8630503,8630599,8630502,8660700",59.172.931/0001-10,Segurança Patrimonial e Portaria,True,2026-05-04,Regular,ATIVA,Homologado,334185.18
-FORN-INV031,,,72000000000181,Suprimentos e Equipamentos de Escritório,False,2026-08-14,Regular,,Homologado,152391.38
+FORN-INV031,,,72000000000181,Suprimentos e Equipamentos de Escritório,False,2026-08-14,Critico (CNPJ Invalido),,Homologado,152391.38
 FORN-00979,8219999.0,,59174131000138,Segurança Patrimonial e Portaria,True,2026-04-25,Regular,ATIVA,Em Análise Periódica,138463.07
 FORN-00535,4929901.0,"4924800,4923001,4929902",59167753000139,"Marketing, Mídia e Eventos",True,2026-08-19,Regular,ATIVA,Homologado,278750.96
 FORN-01001,4712100.0,"5620103,8291100,5229002,5611201,5611203",59174421000181,"Logística, Transporte e Frota",True,2026-06-14,Regular,ATIVA,Homologado,51851.45
@@ -376,7 +376,7 @@ FORN-00975,5611201.0,"4723700,5611203",59174089000155,"Marketing, Mídia e Event
 FORN-01058,4399103.0,4330499,59175229000100,Suprimentos e Equipamentos de Escritório,True,2026-09-22,Regular,ATIVA,Homologado,107528.82
 FORN-00808,5620104.0,,59.171.783/0001-19,Suprimentos e Equipamentos de Escritório,True,2026-05-27,Regular,ATIVA,Em Análise Periódica,482617.72
 FORN-01230,4541206.0,"4541207,4543900",59177727000191,Serviços de Tecnologia e Software,True,2026-09-27,Regular,ATIVA,Homologado,109770.82
-FORN-INV016,,,48000000000174,Segurança Patrimonial e Portaria,False,2026-08-14,Regular,,Homologado,224340.57
+FORN-INV016,,,48000000000174,Segurança Patrimonial e Portaria,False,2026-08-14,Critico (CNPJ Invalido),,Homologado,224340.57
 FORN-01437,4330403.0,4744099,57440484000107,Suprimentos e Equipamentos de Escritório,True,2026-02-27,Critico,INAPTA,Homologado,81252.26
 FORN-00180,8630503.0,"8610101,8610102,8630502",59162652000175,"Logística, Transporte e Frota",True,2026-08-23,Regular,ATIVA,Homologado,41629.99
 FORN-01356,9602501.0,,59163005000188,Serviços Jurídicos e Contábeis,True,2026-09-17,Critico,BAIXADA,Em Análise Periódica,387043.14
@@ -448,7 +448,7 @@ FORN-01084,5320201.0,4930201,59.175.613/0001-02,Segurança Patrimonial e Portari
 FORN-00991,9001901.0,5912099,59174277000183,"Logística, Transporte e Frota",True,2026-01-06,Regular,ATIVA,Em Análise Periódica,304173.88
 FORN-00651,4781400.0,"4789099,9602501,4755502,4755503,9602502",59.169.507/0001-16,Suprimentos e Equipamentos de Escritório,True,2026-08-24,Regular,ATIVA,Homologado,31367.78
 FORN-01189,4729699.0,"4781400,4723700,4713002,4759899",59177136000114,Serviços Jurídicos e Contábeis,True,2026-06-15,Regular,ATIVA,Homologado,79449.43
-FORN-INV034,,,45000000000194,"Logística, Transporte e Frota",False,2026-08-21,Regular,,Homologado,77322.84
+FORN-INV034,,,45000000000194,"Logística, Transporte e Frota",False,2026-08-21,Critico (CNPJ Invalido),,Homologado,77322.84
 FORN-00486,4753900.0,"4751201,4752100,4754701,4754702,4755503,4759801,4761001,4763601,4763603",51.769.557/0019-51,Consultoria e Auditoria Empresarial,True,2026-06-14,Regular,ATIVA,Homologado,431561.9
 FORN-00528,4781400.0,,59.167.654/0001-57,"Logística, Transporte e Frota",True,2026-03-14,Regular,ATIVA,Homologado,72490.0
 FORN-00200,7119799.0,4321500,59162949000130,Segurança Patrimonial e Portaria,True,2026-02-14,Regular,ATIVA,Homologado,287441.19
@@ -562,7 +562,7 @@ FORN-00013,5320202.0,,59.160.326/0001-29,"Marketing, Mídia e Eventos",True,2026
 FORN-00172,5912099.0,"5811500,5812301,5812302,5813100,7319004,7420001,7420002,7420004,8599604",59.162.532/0001-78,Serviços Jurídicos e Contábeis,True,2026-08-09,Regular,ATIVA,Homologado,18010.85
 FORN-00261,4520001.0,,59.163.864/0001-77,"Marketing, Mídia e Eventos",True,2026-05-19,Regular,ATIVA,Homologado,186815.53
 FORN-00820,7311400.0,"5911102,8299799,8219999",59171920000115,Segurança Patrimonial e Portaria,True,2026-09-08,Regular,ATIVA,Homologado,88487.68
-FORN-INV030,,,13000000000141,Segurança Patrimonial e Portaria,False,2026-08-15,Regular,,Homologado,130993.95
+FORN-INV030,,,13000000000141,Segurança Patrimonial e Portaria,False,2026-08-15,Critico (CNPJ Invalido),,Homologado,130993.95
 FORN-00797,4759899.0,"4637107,4637199,4641902,4642701,4643502,4647801,4649405,4649406,4649499,4651601,4672900,4689399,4713002,4721104,4729699,4744001,4751201,4754701,4754703,4755503,4759801,4761003,4763601,4781400,4782202,4789007",59.171.584/0001-00,Consultoria e Auditoria Empresarial,True,2026-07-10,Regular,ATIVA,Homologado,499197.94
 FORN-00139,4930202.0,"4930204,4930201,4930203",59.162.119/0001-03,"Marketing, Mídia e Eventos",True,2026-05-18,Regular,ATIVA,Homologado,96355.41
 FORN-00550,5620104.0,,59168019000194,Suprimentos e Equipamentos de Escritório,True,2026-02-27,Regular,ATIVA,Homologado,281365.27
@@ -581,20 +581,20 @@ FORN-00300,4924800.0,,59164396000155,"Marketing, Mídia e Eventos",True,2026-01-
 FORN-00994,5620104.0,7721700,59.174.344/0001-60,Serviços de Tecnologia e Software,True,2026-02-23,Regular,ATIVA,Em Análise Periódica,175588.96
 FORN-01033,4781400.0,,59174908000164,Serviços Jurídicos e Contábeis,True,2026-08-23,Regular,ATIVA,Homologado,62047.72
 FORN-00671,4930202.0,"4930204,4930201,4930203",59169775000138,Suprimentos e Equipamentos de Escritório,True,2026-06-07,Regular,ATIVA,Homologado,49272.44
-FORN-INV015,,,36000000000154,Engenharia e Manutenção Predial,False,2026-08-21,Regular,,Homologado,88635.5
+FORN-INV015,,,36000000000154,Engenharia e Manutenção Predial,False,2026-08-21,Critico (CNPJ Invalido),,Homologado,88635.5
 FORN-00947,4923002.0,,59173662000106,Segurança Patrimonial e Portaria,True,2026-06-25,Regular,ATIVA,Homologado,41497.45
 FORN-01270,7319003.0,"5811500,5819100",59.178.417/0001-91,Serviços Jurídicos e Contábeis,True,2026-04-24,Regular,ATIVA,Homologado,77070.25
 FORN-00574,5912099.0,,59.168.431/0001-04,Serviços de Tecnologia e Software,True,2026-05-02,Regular,ATIVA,Homologado,190156.29
 FORN-00504,8219999.0,8211300,59.167.297/0001-27,Engenharia e Manutenção Predial,True,2026-02-13,Regular,ATIVA,Homologado,317563.29
 FORN-01038,7490105.0,9319101,59174964000107,Serviços de Tecnologia e Software,True,2026-08-24,Regular,ATIVA,Homologado,247224.56
 FORN-00004,4781400.0,,59160197000179,Serviços de Tecnologia e Software,True,2026-04-23,Regular,ATIVA,Homologado,179329.66
-FORN-INV004,,,12000000000150,Suprimentos e Equipamentos de Escritório,False,2026-08-19,Regular,,Homologado,265524.02
+FORN-INV004,,,12000000000150,Suprimentos e Equipamentos de Escritório,False,2026-08-19,Critico (CNPJ Invalido),,Homologado,265524.02
 FORN-00468,4781400.0,,59.166.834/0001-14,"Logística, Transporte e Frota",True,2026-04-14,Regular,ATIVA,Homologado,380310.46
 FORN-00322,5612100.0,,59.164.704/0001-42,"Marketing, Mídia e Eventos",True,2026-07-02,Regular,ATIVA,Homologado,240692.87
 FORN-00006,7319099.0,,59.160.237/0001-82,Serviços de Tecnologia e Software,True,2026-07-11,Regular,ATIVA,Homologado,45527.33
 FORN-00974,5590699.0,,59174077000120,Segurança Patrimonial e Portaria,True,2026-04-07,Regular,ATIVA,Homologado,58559.21
 FORN-00548,5611201.0,"5611203,5611204,5620101,5620102,5620104,8219999",59167986000131,Consultoria e Auditoria Empresarial,True,2026-06-13,Regular,ATIVA,Em Análise Periódica,215419.43
-FORN-INV012,,,38000000000189,Engenharia e Manutenção Predial,False,2026-08-23,Regular,,Homologado,217934.94
+FORN-INV012,,,38000000000189,Engenharia e Manutenção Predial,False,2026-08-23,Critico (CNPJ Invalido),,Homologado,217934.94
 FORN-00040,4679601.0,,66528134000279,Consultoria e Auditoria Empresarial,True,2026-08-07,Regular,ATIVA,Homologado,119416.35
 FORN-00543,4399199.0,,59169214000139,Suprimentos e Equipamentos de Escritório,True,2026-01-26,Regular,ATIVA,Homologado,61728.67
 FORN-00243,4930202.0,"4930201,4930203,4930204",59.163.563/0001-43,Engenharia e Manutenção Predial,True,2026-08-25,Regular,ATIVA,Em Análise Periódica,458431.78
@@ -605,21 +605,21 @@ FORN-00847,4530703.0,,59.172.292/0001-92,Serviços de Tecnologia e Software,True
 FORN-01091,4930202.0,"4930201,5212500",59.175.734/0001-54,"Logística, Transporte e Frota",True,2026-09-23,Regular,ATIVA,Homologado,529801.68
 FORN-01366,5320201.0,4930201,59.163.413/0001-30,Serviços Jurídicos e Contábeis,True,2026-03-26,Critico,BAIXADA,Homologado,40391.81
 FORN-00582,8219999.0,,59168540000121,"Marketing, Mídia e Eventos",True,2026-07-06,Regular,ATIVA,Homologado,719457.56
-FORN-INV010,,,78000000000137,Segurança Patrimonial e Portaria,False,2026-08-09,Regular,,Homologado,67527.11
+FORN-INV010,,,78000000000137,Segurança Patrimonial e Portaria,False,2026-08-09,Critico (CNPJ Invalido),,Homologado,67527.11
 FORN-00789,4330404.0,,59171476000138,Segurança Patrimonial e Portaria,True,2026-01-20,Regular,ATIVA,Homologado,126583.35
 FORN-01389,6821801.0,6821802,59164516000114,Consultoria e Auditoria Empresarial,True,2026-07-26,Critico,BAIXADA,Em Análise Periódica,645109.88
 FORN-00377,8219999.0,,59165490000129,"Marketing, Mídia e Eventos",True,2026-01-27,Regular,ATIVA,Homologado,350434.69
 FORN-00315,4923002.0,,59164599000141,Serviços Jurídicos e Contábeis,True,2026-06-22,Regular,ATIVA,Homologado,340398.18
 FORN-00443,4789007.0,,59166510000186,Consultoria e Auditoria Empresarial,True,2026-08-05,Regular,ATIVA,Homologado,99390.76
 FORN-00320,8211300.0,"6204000,7020400",59.164.682/0001-10,"Logística, Transporte e Frota",True,2026-08-17,Regular,ATIVA,Homologado,66841.08
-FORN-INV014,,,18000000000182,Serviços Jurídicos e Contábeis,False,2026-08-14,Regular,,Homologado,211827.86
+FORN-INV014,,,18000000000182,Serviços Jurídicos e Contábeis,False,2026-08-14,Critico (CNPJ Invalido),,Homologado,211827.86
 FORN-00794,2349499.0,8592999,59171556000193,"Logística, Transporte e Frota",True,2026-02-17,Regular,ATIVA,Em Análise Periódica,185161.98
 FORN-01133,4772500.0,"4789099,3299006,1749400,3299099,4789005",59176336000152,"Marketing, Mídia e Eventos",True,2026-08-05,Regular,ATIVA,Homologado,30213.5
 FORN-00425,4744099.0,"4742300,4744003,4744001",59166236000145,"Logística, Transporte e Frota",True,2026-08-16,Regular,ATIVA,Em Análise Periódica,25670.71
 FORN-00554,7490104.0,,59.168.089/0001-42,Engenharia e Manutenção Predial,True,2026-06-21,Regular,ATIVA,Homologado,163160.62
 FORN-00595,1091102.0,"4712100,4721102,5611203,7020400,8599604,8599699",28.804.135/0003-90,"Logística, Transporte e Frota",True,2026-08-26,Regular,ATIVA,Homologado,423775.34
 FORN-00894,8630503.0,,59172943000144,Serviços Jurídicos e Contábeis,True,2026-06-05,Regular,ATIVA,Homologado,106105.65
-FORN-INV017,,,94000000000179,"Marketing, Mídia e Eventos",False,2026-08-07,Regular,,Homologado,35368.52
+FORN-INV017,,,94000000000179,"Marketing, Mídia e Eventos",False,2026-08-07,Critico (CNPJ Invalido),,Homologado,35368.52
 FORN-01218,4772500.0,5320201,59.177.555/0001-56,Serviços Jurídicos e Contábeis,True,2026-02-11,Regular,ATIVA,Em Análise Periódica,220379.25
 FORN-01165,4752100.0,3314709,59.176.819/0001-57,"Logística, Transporte e Frota",True,2026-06-02,Regular,ATIVA,Em Análise Periódica,46546.52
 FORN-00228,4723700.0,,59.163.339/0001-51,Serviços de Tecnologia e Software,True,2026-08-04,Regular,ATIVA,Homologado,104889.75
@@ -656,11 +656,11 @@ FORN-00007,8630504.0,,59.160.249/0001-07,Consultoria e Auditoria Empresarial,Tru
 FORN-00312,5611203.0,4723700,59164559000108,"Logística, Transporte e Frota",True,2026-03-24,Regular,ATIVA,Homologado,29706.93
 FORN-01168,4781400.0,"4789001,4763602,4772500,4782202,4782201",59176866000109,Engenharia e Manutenção Predial,True,2026-06-17,Regular,ATIVA,Homologado,142475.15
 FORN-00939,4789005.0,5229099,59173551000108,Serviços Jurídicos e Contábeis,True,2026-02-10,Regular,ATIVA,Homologado,37550.59
-FORN-INV013,,,84000000000122,"Marketing, Mídia e Eventos",False,2026-08-09,Regular,,Homologado,192402.0
+FORN-INV013,,,84000000000122,"Marketing, Mídia e Eventos",False,2026-08-09,Critico (CNPJ Invalido),,Homologado,192402.0
 FORN-00216,1412601.0,,59.163.216/0001-10,Segurança Patrimonial e Portaria,True,2026-01-19,Regular,ATIVA,Em Análise Periódica,63748.28
 FORN-01321,5320201.0,,59.161.262/0001-80,Segurança Patrimonial e Portaria,True,2026-08-02,Critico,BAIXADA,Homologado,66088.89
 FORN-00028,4520001.0,"4543900,2539001,3314701,4520006",59.160.504/0001-11,Engenharia e Manutenção Predial,True,2026-09-20,Regular,ATIVA,Homologado,144965.25
-FORN-INV001,,,78000000000151,Serviços de Tecnologia e Software,False,2026-08-15,Regular,,Homologado,25929.56
+FORN-INV001,,,78000000000151,Serviços de Tecnologia e Software,False,2026-08-15,Critico (CNPJ Invalido),,Homologado,25929.56
 FORN-01025,4781400.0,4782201,59.174.778/0001-60,Segurança Patrimonial e Portaria,True,2026-07-21,Regular,ATIVA,Homologado,534691.26
 FORN-00786,8650004.0,,59.171.435/0001-41,Consultoria e Auditoria Empresarial,True,2026-07-01,Regular,ATIVA,Homologado,445357.71
 FORN-00639,8219999.0,,59.169.351/0001-73,Suprimentos e Equipamentos de Escritório,True,2026-05-27,Regular,ATIVA,Homologado,71461.43
@@ -712,7 +712,7 @@ FORN-00520,4755503.0,"4772500,4781400",59.167.562/0001-77,"Logística, Transport
 FORN-00813,9602501.0,,59171839000135,"Logística, Transporte e Frota",True,2026-08-04,Regular,ATIVA,Em Análise Periódica,38966.27
 FORN-00768,7319002.0,"4752100,4723700,4751201,5011401,4773300,4772500,4785799,4756300,4783101",59171156000188,Engenharia e Manutenção Predial,True,2026-06-08,Regular,ATIVA,Homologado,391860.12
 FORN-00183,5612100.0,,59162697000140,Engenharia e Manutenção Predial,True,2026-02-21,Regular,ATIVA,Em Análise Periódica,480514.27
-FORN-INV022,,,91000000000178,Suprimentos e Equipamentos de Escritório,False,2026-08-19,Regular,,Homologado,80536.04
+FORN-INV022,,,91000000000178,Suprimentos e Equipamentos de Escritório,False,2026-08-19,Critico (CNPJ Invalido),,Homologado,80536.04
 FORN-00111,6190699.0,8599603,59161655000194,Suprimentos e Equipamentos de Escritório,True,2026-01-28,Regular,ATIVA,Homologado,76585.25
 FORN-00043,6911701.0,,59160701000130,Serviços Jurídicos e Contábeis,True,2026-02-02,Regular,ATIVA,Homologado,21298.87
 FORN-01007,4783101.0,"4789001,3212400",59.174.531/0001-43,Segurança Patrimonial e Portaria,True,2026-04-06,Regular,ATIVA,Homologado,227139.69
@@ -722,7 +722,7 @@ FORN-00053,4930201.0,,59160829000102,Serviços de Tecnologia e Software,True,202
 FORN-00546,8112500.0,,59.167.961/0001-38,Suprimentos e Equipamentos de Escritório,True,2026-07-04,Regular,ATIVA,Homologado,94815.68
 FORN-01132,9609207.0,"7721700,9609208",59176326000117,Consultoria e Auditoria Empresarial,True,2026-04-08,Regular,ATIVA,Homologado,138287.85
 FORN-01158,5620101.0,5320202,59176682000130,Consultoria e Auditoria Empresarial,True,2026-08-15,Regular,ATIVA,Homologado,397958.34
-FORN-INV003,,,12000000000199,Serviços Jurídicos e Contábeis,False,2026-08-19,Regular,,Homologado,82688.68
+FORN-INV003,,,12000000000199,Serviços Jurídicos e Contábeis,False,2026-08-19,Critico (CNPJ Invalido),,Homologado,82688.68
 FORN-00911,9609208.0,,59.173.189/0001-67,Serviços Jurídicos e Contábeis,True,2026-02-09,Regular,ATIVA,Homologado,175617.2
 FORN-00184,4520001.0,"4530703,7732201,4530704",59.162.709/0001-36,Serviços Jurídicos e Contábeis,True,2026-09-23,Regular,ATIVA,Homologado,392700.07
 FORN-00138,4399103.0,"4321500,4322301,4330403,4330404,4330405",59162108000123,"Logística, Transporte e Frota",True,2026-04-12,Regular,ATIVA,Em Análise Periódica,233535.66
@@ -796,7 +796,7 @@ FORN-01194,4930202.0,,59177214000180,Engenharia e Manutenção Predial,True,2026
 FORN-00405,7723300.0,8230001,59165934000126,Serviços de Tecnologia e Software,True,2026-08-09,Regular,ATIVA,Homologado,84432.38
 FORN-01304,1094500.0,"5620104,4721102,1091101",59.160.345/0001-55,Consultoria e Auditoria Empresarial,True,2026-04-14,Critico,BAIXADA,Homologado,155283.16
 FORN-00934,7319002.0,"5819100,8599605,8599604,8219999,3212400,8230001",59.173.498/0001-37,Serviços de Tecnologia e Software,True,2026-09-25,Regular,ATIVA,Homologado,149261.02
-FORN-INV021,,,73000000000137,Serviços Jurídicos e Contábeis,False,2026-08-09,Regular,,Homologado,74772.15
+FORN-INV021,,,73000000000137,Serviços Jurídicos e Contábeis,False,2026-08-09,Critico (CNPJ Invalido),,Homologado,74772.15
 FORN-00105,8650003.0,,59161575000139,Consultoria e Auditoria Empresarial,True,2026-09-16,Regular,ATIVA,Homologado,443627.8
 FORN-00610,9700500.0,,59.168.920/0001-66,"Logística, Transporte e Frota",True,2026-08-28,Critico,BAIXADA,Em Análise Periódica,226042.34
 FORN-01456,8630599.0,"8630503,8610102",58623037000156,Suprimentos e Equipamentos de Escritório,True,2026-02-19,Critico,SUSPENSA,Em Análise Periódica,496122.99
@@ -847,7 +847,7 @@ FORN-00941,9603304.0,,59173576000101,Serviços de Tecnologia e Software,True,202
 FORN-01050,7020400.0,8211300,59175128000139,"Marketing, Mídia e Eventos",True,2026-05-02,Regular,ATIVA,Homologado,18869.8
 FORN-00923,6202300.0,"6201501,6204000,6209100",58.676.681/0001-92,"Logística, Transporte e Frota",True,2026-01-08,Regular,ATIVA,Em Análise Periódica,419917.11
 FORN-00899,4929902.0,"4399104,4923001,4923002,4924800,4929901,4930201,4930202,4930203,4930204,7711000,7719599,7731400,7732201,7739099",59.173.032/0001-31,Consultoria e Auditoria Empresarial,True,2026-05-27,Regular,ATIVA,Em Análise Periódica,17355.69
-FORN-INV028,,,30000000000142,Consultoria e Auditoria Empresarial,False,2026-08-13,Regular,,Homologado,50939.01
+FORN-INV028,,,30000000000142,Consultoria e Auditoria Empresarial,False,2026-08-13,Critico (CNPJ Invalido),,Homologado,50939.01
 FORN-00008,4321500.0,"3313999,3314702,3314711",59.160.262/0001-66,"Marketing, Mídia e Eventos",True,2026-05-26,Regular,ATIVA,Homologado,377021.56
 FORN-00863,4754702.0,"4754701,4755503",59172529000135,"Marketing, Mídia e Eventos",True,2026-04-06,Regular,ATIVA,Homologado,148768.38
 FORN-00668,8291100.0,"1812100,3321000,3329599,4321500,4619200,4751201,4752100,4923002,6190699,6201501,6201502,6202300,6203100,6209100,6391700,6613400,6619399,6622300,7319002,7319003,7490104,7711000,7733100,8211300,8219999,8599604",59.169.742/0001-98,Engenharia e Manutenção Predial,True,2026-08-26,Regular,ATIVA,Homologado,46529.68
@@ -896,7 +896,7 @@ FORN-00369,8712300.0,,59.165.401/0001-44,Engenharia e Manutenção Predial,True,
 FORN-00508,4520003.0,"4322302,4530703",59167376000138,Serviços Jurídicos e Contábeis,True,2026-01-03,Regular,ATIVA,Homologado,326219.01
 FORN-01182,4723700.0,,59.177.053/0001-25,"Marketing, Mídia e Eventos",True,2026-07-24,Regular,ATIVA,Em Análise Periódica,90304.1
 FORN-00505,4930201.0,5320201,59.167.322/0001-72,Serviços Jurídicos e Contábeis,True,2026-01-23,Regular,ATIVA,Homologado,222779.33
-FORN-INV024,,,69000000000128,Consultoria e Auditoria Empresarial,False,2026-08-05,Regular,,Homologado,79032.24
+FORN-INV024,,,69000000000128,Consultoria e Auditoria Empresarial,False,2026-08-05,Critico (CNPJ Invalido),,Homologado,79032.24
 FORN-00348,4724500.0,,59165042000125,"Marketing, Mídia e Eventos",True,2026-05-15,Regular,ATIVA,Homologado,23345.22
 FORN-00387,4721104.0,,57062506001467,Suprimentos e Equipamentos de Escritório,True,2026-07-08,Regular,ATIVA,Homologado,74640.1
 FORN-00001,5912099.0,4785799,59.160.166/0001-18,Engenharia e Manutenção Predial,True,2026-05-08,Regular,ATIVA,Homologado,99468.26
@@ -1094,7 +1094,7 @@ FORN-00697,4724500.0,,59170132000104,Suprimentos e Equipamentos de Escritório,T
 FORN-00997,4399103.0,4322301,59.174.376/0001-65,Segurança Patrimonial e Portaria,True,2026-01-14,Regular,ATIVA,Homologado,463685.97
 FORN-00154,9602501.0,,59162319000166,Suprimentos e Equipamentos de Escritório,True,2026-02-19,Regular,ATIVA,Em Análise Periódica,136008.98
 FORN-01300,8599604.0,"8599605,8599603,8219999",59178899000180,Serviços Jurídicos e Contábeis,True,2026-01-08,Regular,ATIVA,Homologado,235643.09
-FORN-INV033,,,44000000000127,Serviços de Tecnologia e Software,False,2026-08-09,Regular,,Homologado,94721.31
+FORN-INV033,,,44000000000127,Serviços de Tecnologia e Software,False,2026-08-09,Critico (CNPJ Invalido),,Homologado,94721.31
 FORN-00790,4772500.0,"4646001,4751201,4755502,4757100,4763601,4763602",59.171.485/0001-29,Engenharia e Manutenção Predial,True,2026-01-23,Regular,ATIVA,Homologado,544708.27
 FORN-00581,8630502.0,"7119704,7490199,8599604,8599699,8630503,8630599,8640208",59168528000117,Serviços Jurídicos e Contábeis,True,2026-04-07,Regular,ATIVA,Homologado,125625.65
 FORN-00704,4724500.0,5212500,49542096000109,Suprimentos e Equipamentos de Escritório,True,2026-08-26,Regular,ATIVA,Homologado,40982.88
@@ -1105,7 +1105,7 @@ FORN-00802,9602501.0,,59.171.684/0001-37,Segurança Patrimonial e Portaria,True,
 FORN-00513,4633801.0,"163600,4724500",59167466000129,"Logística, Transporte e Frota",True,2026-09-24,Regular,ATIVA,Homologado,500823.31
 FORN-00634,4923002.0,5320202,59.169.267/0001-50,Serviços Jurídicos e Contábeis,True,2026-03-12,Regular,ATIVA,Homologado,151715.31
 FORN-01111,161002.0,"8129000,4321500,4322301,4329105,2599301,4330403,4399199,4399103,4330404,1622699",59176072000137,Segurança Patrimonial e Portaria,True,2026-08-21,Regular,ATIVA,Homologado,319544.34
-FORN-INV007,,,73000000000174,"Marketing, Mídia e Eventos",False,2026-08-06,Regular,,Homologado,180935.21
+FORN-INV007,,,73000000000174,"Marketing, Mídia e Eventos",False,2026-08-06,Critico (CNPJ Invalido),,Homologado,180935.21
 FORN-00791,6810201.0,6810202,59.171.522/0001-07,Serviços Jurídicos e Contábeis,True,2026-02-18,Regular,ATIVA,Em Análise Periódica,44964.52
 FORN-00117,5620101.0,5611203,59161733000150,Serviços de Tecnologia e Software,True,2026-01-03,Regular,ATIVA,Em Análise Periódica,308034.41
 FORN-00741,4399103.0,,59170702000166,Engenharia e Manutenção Predial,True,2026-08-07,Regular,ATIVA,Homologado,126808.99
@@ -1125,7 +1125,7 @@ FORN-01291,1091102.0,,59178734000108,Serviços de Tecnologia e Software,True,202
 FORN-00992,5320201.0,"5320202,8130300,4930202",59.174.287/0001-19,"Logística, Transporte e Frota",True,2026-09-24,Regular,ATIVA,Homologado,228560.79
 FORN-00877,9700500.0,,59172724000165,Segurança Patrimonial e Portaria,True,2026-02-19,Regular,ATIVA,Homologado,241562.99
 FORN-00774,2539001.0,,59171258000101,Serviços Jurídicos e Contábeis,True,2026-06-28,Regular,ATIVA,Homologado,106136.63
-FORN-INV035,,,15000000000172,Serviços de Tecnologia e Software,False,2026-08-02,Regular,,Homologado,258825.53
+FORN-INV035,,,15000000000172,Serviços de Tecnologia e Software,False,2026-08-02,Critico (CNPJ Invalido),,Homologado,258825.53
 FORN-00005,5611203.0,,54.785.741/0003-16,Suprimentos e Equipamentos de Escritório,True,2026-08-19,Critico,BAIXADA,Homologado,45532.48
 FORN-01004,4635401.0,,59174488000116,Suprimentos e Equipamentos de Escritório,True,2026-08-25,Regular,ATIVA,Homologado,252169.4
 FORN-01302,8599603.0,"6201501,6201502,6202300,6203100,6204000,6209100,6311900,6399200",59.160.225/0001-58,Segurança Patrimonial e Portaria,True,2026-08-20,Critico,BAIXADA,Homologado,510394.93
@@ -1179,7 +1179,7 @@ FORN-00018,8650003.0,,59160392000107,"Marketing, Mídia e Eventos",True,2026-08-
 FORN-00128,8512100.0,,59161929000145,Consultoria e Auditoria Empresarial,True,2026-04-04,Regular,ATIVA,Homologado,369842.09
 FORN-00928,9602502.0,"4618401,4646001,8650099",59173434000136,Serviços Jurídicos e Contábeis,True,2026-03-08,Regular,ATIVA,Em Análise Periódica,155415.8
 FORN-00981,4724500.0,,59174157000186,Serviços de Tecnologia e Software,True,2026-06-13,Regular,ATIVA,Homologado,88229.74
-FORN-INV005,,,59000000000151,Engenharia e Manutenção Predial,False,2026-08-26,Regular,,Homologado,203003.61
+FORN-INV005,,,59000000000151,Engenharia e Manutenção Predial,False,2026-08-26,Critico (CNPJ Invalido),,Homologado,203003.61
 FORN-00191,9602501.0,9602502,59.162.817/0001-09,"Marketing, Mídia e Eventos",True,2026-04-19,Regular,ATIVA,Homologado,32590.71
 FORN-01140,4772500.0,4781400,59176445000170,Suprimentos e Equipamentos de Escritório,True,2026-07-20,Regular,ATIVA,Homologado,176547.85
 FORN-00993,7319002.0,5819100,59174319000186,Serviços Jurídicos e Contábeis,True,2026-05-18,Critico,BAIXADA,Homologado,72177.65
@@ -1218,7 +1218,7 @@ FORN-00750,8211300.0,8219999,59.170.848/0001-01,Segurança Patrimonial e Portari
 FORN-01046,5320201.0,"4930204,4930201",59175062000187,Consultoria e Auditoria Empresarial,True,2026-08-03,Regular,ATIVA,Homologado,187216.17
 FORN-00470,9602502.0,,59166867000164,Serviços Jurídicos e Contábeis,True,2026-06-21,Regular,ATIVA,Homologado,609516.62
 FORN-01279,1539400.0,,59178559000159,Consultoria e Auditoria Empresarial,True,2026-07-06,Regular,ATIVA,Homologado,42671.2
-FORN-INV008,,,88000000000148,"Marketing, Mídia e Eventos",False,2026-08-14,Regular,,Homologado,272956.29
+FORN-INV008,,,88000000000148,"Marketing, Mídia e Eventos",False,2026-08-14,Critico (CNPJ Invalido),,Homologado,272956.29
 FORN-00688,4789001.0,4781400,59.170.008/0001-49,Serviços Jurídicos e Contábeis,True,2026-06-20,Regular,ATIVA,Homologado,74125.51
 FORN-01379,1412602.0,"4755501,1412601,3299005",59163910000138,Serviços Jurídicos e Contábeis,True,2026-03-22,Critico,BAIXADA,Homologado,95116.19
 FORN-00640,4772500.0,"4781400,4729699",59169361000109,"Marketing, Mídia e Eventos",True,2026-09-22,Regular,ATIVA,Homologado,100259.7
@@ -1268,7 +1268,7 @@ FORN-00263,4744099.0,4744002,59163888000126,Segurança Patrimonial e Portaria,Tr
 FORN-00151,8219999.0,,57.241.288/0001-03,"Logística, Transporte e Frota",True,2026-02-28,Regular,ATIVA,Em Análise Periódica,444994.97
 FORN-00473,7420001.0,,59166903000190,Segurança Patrimonial e Portaria,True,2026-08-02,Regular,ATIVA,Homologado,22941.42
 FORN-00641,8599699.0,,59169372000199,"Logística, Transporte e Frota",True,2026-09-02,Regular,ATIVA,Homologado,18649.56
-FORN-INV020,,,90000000000176,"Logística, Transporte e Frota",False,2026-08-19,Regular,,Homologado,67091.5
+FORN-INV020,,,90000000000176,"Logística, Transporte e Frota",False,2026-08-19,Critico (CNPJ Invalido),,Homologado,67091.5
 FORN-01411,4781400.0,,40.685.613/0002-05,Serviços Jurídicos e Contábeis,True,2026-06-06,Critico,INAPTA,Em Análise Periódica,56484.93
 FORN-00551,4520002.0,4530703,59168031000107,"Logística, Transporte e Frota",True,2026-05-11,Regular,ATIVA,Homologado,147175.77
 FORN-00929,4930201.0,,59173446000160,"Logística, Transporte e Frota",True,2026-03-20,Regular,ATIVA,Homologado,195665.52
@@ -1415,7 +1415,7 @@ FORN-00296,4930201.0,,59164354000114,"Logística, Transporte e Frota",True,2026-
 FORN-01017,4520002.0,,59.174.666/0001-09,Serviços Jurídicos e Contábeis,True,2026-04-26,Regular,ATIVA,Homologado,50847.51
 FORN-01276,4321500.0,"4322303,4322302,4322301,3321000",59.178.514/0001-84,"Marketing, Mídia e Eventos",True,2026-03-25,Regular,ATIVA,Homologado,34953.64
 FORN-00456,4723700.0,8230001,59166688000127,Suprimentos e Equipamentos de Escritório,True,2026-02-22,Regular,ATIVA,Em Análise Periódica,137130.92
-FORN-INV032,,,92000000000114,Consultoria e Auditoria Empresarial,False,2026-08-06,Regular,,Homologado,135949.25
+FORN-INV032,,,92000000000114,Consultoria e Auditoria Empresarial,False,2026-08-06,Critico (CNPJ Invalido),,Homologado,135949.25
 FORN-00816,4321500.0,"3319800,3314702",59.171.875/0001-07,Engenharia e Manutenção Predial,True,2026-04-16,Regular,ATIVA,Em Análise Periódica,146679.25
 FORN-00270,8030700.0,"6204000,6311900,6619302,6630400,7020400,7119704,7490199,8011101,8020001,8020002,8291100,8599604",59.163.968/0001-81,Serviços Jurídicos e Contábeis,True,2026-08-14,Regular,ATIVA,Homologado,77561.18
 FORN-00996,5320201.0,5229099,59.174.365/0001-85,Serviços Jurídicos e Contábeis,True,2026-05-12,Regular,ATIVA,Homologado,32289.13
@@ -1435,7 +1435,7 @@ FORN-00206,8211300.0,7020400,59.163.027/0001-48,"Logística, Transporte e Frota"
 FORN-00035,9700500.0,,59160615000128,Consultoria e Auditoria Empresarial,True,2026-07-22,Regular,ATIVA,Homologado,621713.46
 FORN-00776,7020400.0,"8599604,7490104",59.171.301/0001-20,"Marketing, Mídia e Eventos",True,2026-01-15,Regular,ATIVA,Homologado,44235.92
 FORN-00509,7319002.0,"9001906,9511800,9521500,9512600",59167401000183,Segurança Patrimonial e Portaria,True,2026-01-06,Regular,ATIVA,Homologado,553512.93
-FORN-INV011,,,16000000000148,Suprimentos e Equipamentos de Escritório,False,2026-08-26,Regular,,Homologado,152167.56
+FORN-INV011,,,16000000000148,Suprimentos e Equipamentos de Escritório,False,2026-08-26,Critico (CNPJ Invalido),,Homologado,152167.56
 FORN-01391,3314706.0,"4321500,3314702,2539001,3321000",59164580000103,Engenharia e Manutenção Predial,True,2026-04-10,Critico,BAIXADA,Homologado,63465.64
 FORN-00092,7319002.0,"9602501,9602502",59161403000165,Suprimentos e Equipamentos de Escritório,True,2026-05-13,Regular,ATIVA,Homologado,239842.74
 FORN-01364,4520005.0,,59163203000141,Consultoria e Auditoria Empresarial,True,2026-06-14,Critico,BAIXADA,Homologado,194726.04
@@ -1487,7 +1487,7 @@ FORN-00872,4772500.0,,59172666000170,Consultoria e Auditoria Empresarial,True,20
 FORN-01124,7729202.0,"3314707,9329899,8230001,4322302,7420004,4321500,7739003,4520007,7420001,5320201,9521500,5612100,7721700",59176213000111,Segurança Patrimonial e Portaria,True,2026-06-15,Regular,ATIVA,Homologado,313473.74
 FORN-01397,4541206.0,,59165069000118,Serviços de Tecnologia e Software,True,2026-05-10,Critico,BAIXADA,Homologado,116461.89
 FORN-00088,4520006.0,"4520004,4530705",59161363000151,Consultoria e Auditoria Empresarial,True,2026-07-03,Regular,ATIVA,Homologado,197680.08
-FORN-INV018,,,63000000000161,Segurança Patrimonial e Portaria,False,2026-08-20,Regular,,Homologado,114360.28
+FORN-INV018,,,63000000000161,Segurança Patrimonial e Portaria,False,2026-08-20,Critico (CNPJ Invalido),,Homologado,114360.28
 FORN-00331,8650004.0,,59.164.821/0001-06,Serviços de Tecnologia e Software,True,2026-04-23,Regular,ATIVA,Homologado,94202.54
 FORN-01239,4631100.0,"141501,141502,142300,151202,159801,161099,162801,162899,1042200,1051100,1052000,1064300,1065101,1065103,4623101,4623199,4632001,4632002,4632003,4633801,4633802,4634601,4637199,4639701,4644302,4661300,4683400,4692300,7490103,8211300",59177849000188,"Logística, Transporte e Frota",True,2026-01-19,Regular,ATIVA,Em Análise Periódica,635654.82
 FORN-00467,8610102.0,8630599,59.166.823/0001-34,"Marketing, Mídia e Eventos",True,2026-06-08,Regular,ATIVA,Homologado,75564.45

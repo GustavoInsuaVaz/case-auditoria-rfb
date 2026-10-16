@@ -95,8 +95,8 @@ def executar_gold():
 
     # Classificação de Risco Operacional
     fato_fornecedores['RISCO_CADASTRAL'] = 'Regular'
-    # if 'CNPJ_VALIDO' in fato_fornecedores.columns:
-    #     fato_fornecedores.loc[fato_fornecedores['CNPJ_VALIDO'] == False, 'RISCO_CADASTRAL'] = 'Critico (CNPJ Invalido)'
+    if 'CNPJ_VALIDO' in fato_fornecedores.columns:
+        fato_fornecedores.loc[fato_fornecedores['CNPJ_VALIDO'] == False, 'RISCO_CADASTRAL'] = 'Critico (CNPJ Invalido)'
 
     if 'DESCRICAO_SITUACAO' in df.columns:
         fato_fornecedores['DESCRICAO_SITUACAO_RFB'] = df['DESCRICAO_SITUACAO']
@@ -105,6 +105,7 @@ def executar_gold():
             'RISCO_CADASTRAL'
         ] = 'Critico'
         # fato_fornecedores.drop(columns=['DESCRICAO_SITUACAO_RFB'], inplace=True, errors='ignore')
+
 
     fato_fornecedores = fato_fornecedores[['ID_FORNECEDOR','CNAE_PRINCIPAL_CODIGO','CNAES_SECUNDARIOS','CNPJ','CATEGORIA_FORNECIMENTO',
                           'CNPJ_VALIDO','DATA_ULTIMO_PAGAMENTO','RISCO_CADASTRAL','DESCRICAO_SITUACAO','STATUS_HOMOLOGACAO',
