@@ -8,7 +8,7 @@ import requests
 import pandas as pd
 import sys
 
-SILVER_DIR = 'medallion/silver'
+SILVER_DIR = '/content/drive/MyDrive/Curriculo/Processos_Seletivos/Case_ABR_GUSTAVO_VAZ_2026/medallion/silver'
 
 def consultar_cnpj_api(cnpj):
     url = f"https://brasilapi.com.br/api/cnpj/v1/{cnpj}"

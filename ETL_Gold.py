@@ -7,8 +7,8 @@ import os
 import pandas as pd
 import numpy as np
 
-SILVER_DIR = 'medallion/silver'
-GOLD_DIR = 'medallion/gold'
+SILVER_DIR = '/content/drive/MyDrive/Curriculo/Processos_Seletivos/Case_ABR_GUSTAVO_VAZ_2026/medallion/silver'
+GOLD_DIR = '/content/drive/MyDrive/Curriculo/Processos_Seletivos/Case_ABR_GUSTAVO_VAZ_2026/medallion/gold'
 os.makedirs(GOLD_DIR, exist_ok=True)
 
 def executar_gold():
@@ -95,18 +95,18 @@ def executar_gold():
     print("[GOLD] Gerando Tabela Fato de Auditoria Completa...")
     fato_fornecedores = df.copy()
 
-    # Regra de Risco Operacional / Compliance
+    # Classificação de Risco Operacional
     fato_fornecedores['RISCO_CADASTRAL'] = 'Regular'
-    if 'CNPJ_VALIDO' in fato_fornecedores.columns:
-        fato_fornecedores.loc[fato_fornecedores['CNPJ_VALIDO'] == False, 'RISCO_CADASTRAL'] = 'Critico (CNPJ Invalido)'
+    # if 'CNPJ_VALIDO' in fato_fornecedores.columns:
+    #     fato_fornecedores.loc[fato_fornecedores['CNPJ_VALIDO'] == False, 'RISCO_CADASTRAL'] = 'Critico (CNPJ Invalido)'
 
     if 'DESCRICAO_SITUACAO' in df.columns:
         fato_fornecedores['DESCRICAO_SITUACAO_RFB'] = df['DESCRICAO_SITUACAO']
         fato_fornecedores.loc[
             (fato_fornecedores['DESCRICAO_SITUACAO_RFB'].isin(['BAIXADA', 'INAPTA', 'SUSPENSA', 'NULA'])),
             'RISCO_CADASTRAL'
-        ] = 'Critico (Situacao Irregular RFB)'
-        fato_fornecedores.drop(columns=['DESCRICAO_SITUACAO_RFB'], inplace=True, errors='ignore')
+        ] = 'Critico'
+        # fato_fornecedores.drop(columns=['DESCRICAO_SITUACAO_RFB'], inplace=True, errors='ignore')
 
     # Salvando os arquivos modelados na camada Gold
     dim_fornecedores.to_csv(os.path.join(GOLD_DIR, 'dim_fornecedores.csv'), index=False, encoding='utf-8')
