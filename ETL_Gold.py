@@ -107,7 +107,7 @@ def executar_gold():
         # fato_fornecedores.drop(columns=['DESCRICAO_SITUACAO_RFB'], inplace=True, errors='ignore')
 
     fato_fornecedores = fato_fornecedores[['ID_FORNECEDOR','CNAE_PRINCIPAL_CODIGO','CNAES_SECUNDARIOS','CNPJ','CATEGORIA_FORNECIMENTO',
-                          'CNPJ_VALIDO','DATA_ULTIMO_PAGAMENTO','RISCO_CADASTRAL','SITUACAO_FORNECEDOR','STATUS_HOMOLOGACAO',
+                          'CNPJ_VALIDO','DATA_ULTIMO_PAGAMENTO','RISCO_CADASTRAL','DESCRICAO_SITUACAO','STATUS_HOMOLOGACAO',
                           'VALOR_CONTRATADO_ANUAL']]
 
     # Salvando os arquivos modelados na camada Gold
