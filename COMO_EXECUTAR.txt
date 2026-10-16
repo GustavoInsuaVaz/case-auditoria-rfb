@@ -1,0 +1,56 @@
+===============================================================================
+  🛡️ PORTAL DE COMPLIANCE & RISCO - INSTRUÇÕES DE EXECUÇÃO LOCAL
+===============================================================================
+
+Este pacote contém um painel de auditoria reativo desenvolvido em Python (Streamlit)
+integrado às bases de dados estruturadas em arquitetura Medallion.
+
+Siga o passo a passo abaixo para rodar a aplicação em seu computador de forma simples.
+
+-------------------------------------------------------------------------------
+📋 PRÉ-REQUISITOS
+-------------------------------------------------------------------------------
+Você precisará ter o Python instalado no seu sistema:
+- Caso não tenha, faça o download e instalação através do site oficial:
+  https://www.python.org/downloads/
+  (Certifique-se de marcar a opção "Add Python to PATH" durante a instalação)
+
+-------------------------------------------------------------------------------
+🚀 COMO EXECUTAR A APLICAÇÃO (PASSO A PASSO)
+-------------------------------------------------------------------------------
+
+PASSO 1: Extrair os arquivos
+- Certifique-se de que o arquivo 'app.py', a pasta 'medallion/' e este arquivo
+  de instruções estejam todos no mesmo diretório (na mesma pasta).
+
+PASSO 2: Abrir o Prompt de Comando / Terminal
+- No Windows: Pressione a tecla Windows, digite "cmd" e pressione Enter.
+- No MacOS/Linux: Abra o aplicativo "Terminal".
+
+PASSO 3: Navegar até a pasta do aplicativo
+- No seu Terminal, mude o diretório para a pasta onde você descompactou os arquivos.
+  Por exemplo (ajuste para o seu caminho real):
+  cd "C:\Users\SeuUsuario\Documents\Portal_Compliance"
+
+PASSO 4: Instalar as bibliotecas necessárias
+- Execute o comando a seguir no terminal para baixar as dependências oficiais:
+  pip install streamlit pandas plotly
+
+PASSO 5: Iniciar o Portal de Compliance
+- Com as bibliotecas instaladas, execute o seguinte comando no mesmo terminal:
+  streamlit run app.py
+
+-------------------------------------------------------------------------------
+💻 ACESSO AO PORTAL
+-------------------------------------------------------------------------------
+- Após executar o comando no PASSO 5, o seu navegador de internet padrão
+  (Chrome, Edge, Firefox, etc.) abrirá automaticamente uma nova guia exibindo
+  o painel interativo no endereço:
+  http://localhost:8501
+
+- Caso a guia não abra por conta própria, basta copiar o link acima, colar
+  na barra do seu navegador e pressionar Enter.
+
+===============================================================================
+Suporte Técnico Cadastral B2B & Compliance
+===============================================================================
