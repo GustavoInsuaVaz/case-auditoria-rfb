@@ -7,8 +7,8 @@ import os
 import pandas as pd
 import numpy as np
 
-SILVER_DIR = '/content/drive/MyDrive/Curriculo/Processos_Seletivos/Case_ABR_GUSTAVO_VAZ_2026/medallion/silver'
-GOLD_DIR = '/content/drive/MyDrive/Curriculo/Processos_Seletivos/Case_ABR_GUSTAVO_VAZ_2026/medallion/gold'
+SILVER_DIR = 'medallion/silver'
+GOLD_DIR = '/medallion/gold'
 os.makedirs(GOLD_DIR, exist_ok=True)
 
 def executar_gold():

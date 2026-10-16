@@ -6,8 +6,8 @@ import os
 import re
 import pandas as pd
 
-BRONZE_DIR = '/content/drive/MyDrive/Curriculo/Processos_Seletivos/Case_ABR_GUSTAVO_VAZ_2026/medallion/bronze'
-SILVER_DIR = '/content/drive/MyDrive/Curriculo/Processos_Seletivos/Case_ABR_GUSTAVO_VAZ_2026/medallion/silver'
+BRONZE_DIR = 'medallion/bronze'
+SILVER_DIR = 'medallion/silver'
 
 os.makedirs(BRONZE_DIR, exist_ok=True)
 os.makedirs(SILVER_DIR, exist_ok=True)
@@ -50,4 +50,4 @@ def executar_bronze_silver(origem_xlsx):
     print(f"[SILVER] Dados limpos e validados salvos em: {destino_silver}")
 
 if __name__ == '__main__':
-    executar_bronze_silver('/content/drive/MyDrive/Curriculo/Processos_Seletivos/Case_ABR_GUSTAVO_VAZ_2026//base_fornecedores_homologados.xlsx')
+    executar_bronze_silver('base_fornecedores_homologados.xlsx')
