@@ -8,16 +8,14 @@ import pandas as pd
 import numpy as np
 
 SILVER_DIR = 'medallion/silver'
-GOLD_DIR = '/medallion/gold'
+GOLD_DIR = 'medallion/gold'
 os.makedirs(GOLD_DIR, exist_ok=True)
 
 def executar_gold():
     origem = os.path.join(SILVER_DIR, 'fornecedores_enriquecidos.csv')
     if not os.path.exists(origem):
-        origem = os.path.join(SILVER_DIR, 'fornecedores_higienizados.csv')
-        if not os.path.exists(origem):
-            print("Erro: Arquivo original nao encontrado na camada Silver.")
-            return
+        print("Erro: Arquivo original nao encontrado na camada Silver.")
+        return
 
     print(f"[GOLD] Carregando dados da camada Silver para modelagem: {origem}")
     df = pd.read_csv(origem, dtype={'CNPJ_LIMPO': str, 'CNAE_PRINCIPAL_CODIGO': str})
@@ -81,7 +79,7 @@ def executar_gold():
     print("[GOLD] Gerando Dimensao Fornecedores...")
     cols_dim = [
         'ID_FORNECEDOR', 'CNPJ_LIMPO', 'CNPJ_RAIZ', 'MATRIZ_FILIAL',
-        'RAZAO_SOCIAL_INFORMADA', 'SITUACAO_CADASTRAL', 'DESCRICAO_SITUACAO',
+        'RAZAO_SOCIAL_INFORMADA', 'SITUACAO_CADASTRAL','DATA_SITUACAO_CADASTRAL', 'DESCRICAO_SITUACAO',
         'CNAE_PRINCIPAL_CODIGO', 'CNAE_PRINCIPAL_DESCRICAO', 'UF_RFB', 'MUNICIPIO_RFB'
     ]
     cols_presentes = [c for c in cols_dim if c in df.columns]
@@ -107,6 +105,10 @@ def executar_gold():
             'RISCO_CADASTRAL'
         ] = 'Critico'
         # fato_fornecedores.drop(columns=['DESCRICAO_SITUACAO_RFB'], inplace=True, errors='ignore')
+
+    fato_fornecedores = fato_fornecedores[['ID_FORNECEDOR','CNAE_PRINCIPAL_CODIGO','CNAES_SECUNDARIOS','CNPJ','CATEGORIA_FORNECIMENTO',
+                          'CNPJ_VALIDO','DATA_ULTIMO_PAGAMENTO','RISCO_CADASTRAL','SITUACAO_FORNECEDOR','STATUS_HOMOLOGACAO',
+                          'VALOR_CONTRATADO_ANUAL']]
 
     # Salvando os arquivos modelados na camada Gold
     dim_fornecedores.to_csv(os.path.join(GOLD_DIR, 'dim_fornecedores.csv'), index=False, encoding='utf-8')
