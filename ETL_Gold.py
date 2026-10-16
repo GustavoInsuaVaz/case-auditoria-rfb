@@ -93,6 +93,8 @@ def executar_gold():
     print("[GOLD] Gerando Tabela Fato de Auditoria Completa...")
     fato_fornecedores = df.copy()
 
+    fato_fornecedores['DESCRICAO_SITUACAO'] = fato_fornecedores['DESCRICAO_SITUACAO'].fillna('CNPJ INVALIDO')
+
     # Classificação de Risco Operacional
     fato_fornecedores['RISCO_CADASTRAL'] = 'Regular'
     if 'CNPJ_VALIDO' in fato_fornecedores.columns:
