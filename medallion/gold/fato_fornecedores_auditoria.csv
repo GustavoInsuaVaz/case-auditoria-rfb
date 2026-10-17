@@ -15,7 +15,7 @@ FORN-00713,2.0,4751201.0,Suprimentos e Equipamentos de Escritório,PATROCINIO,12
 FORN-01383,8.0,4744099.0,Segurança Patrimonial e Portaria,CURITIBA,642688.45,Critico,True,Ativo,False
 FORN-00071,2.0,8219999.0,Serviços de Tecnologia e Software,SANTOS,281307.08,Alerta,True,Ativo,False
 FORN-01269,2.0,5620104.0,Engenharia e Manutenção Predial,RIO DE JANEIRO,179941.58,Alerta,True,Ativo,False
-FORN-INV027,,,Segurança Patrimonial e Portaria,,76065.25,Critico (CNPJ Invalido),False,Ativo,False
+FORN-INV027,0.0,,Segurança Patrimonial e Portaria,,76065.25,Critico,False,Ativo,False
 FORN-00608,2.0,8112500.0,"Logística, Transporte e Frota",ITAQUI,96536.6,Alerta,True,Ativo,False
 FORN-00434,2.0,5620102.0,Segurança Patrimonial e Portaria,PONTA GROSSA,34189.57,Alerta,True,Ativo,False
 FORN-00052,2.0,1031700.0,Serviços de Tecnologia e Software,UBAPORANGA,283604.17,Alerta,True,Ativo,False
@@ -26,7 +26,7 @@ FORN-01250,2.0,8599699.0,"Logística, Transporte e Frota",BROCHIER,187585.38,Ale
 FORN-01420,4.0,4543900.0,Serviços Jurídicos e Contábeis,GOIANIA,503917.56,Critico,True,Ativo,False
 FORN-00433,2.0,161003.0,Engenharia e Manutenção Predial,FORMOSA,188323.02,Regular,True,Ativo,True
 FORN-01453,3.0,6619302.0,Serviços de Tecnologia e Software,SAO LUIS,380729.92,Critico,True,Ativo,False
-FORN-INV006,,,Consultoria e Auditoria Empresarial,,120446.61,Critico (CNPJ Invalido),False,Ativo,False
+FORN-INV006,0.0,,Consultoria e Auditoria Empresarial,,120446.61,Critico,False,Ativo,False
 FORN-01235,2.0,8599604.0,"Logística, Transporte e Frota",PE DE SERRA,204827.25,Alerta,True,Ativo,False
 FORN-01282,2.0,7420001.0,Engenharia e Manutenção Predial,VOTUPORANGA,233200.2,Alerta,True,Ativo,False
 FORN-01086,2.0,8599604.0,Serviços Jurídicos e Contábeis,BELEM,128397.74,Alerta,True,Ativo,False
@@ -132,7 +132,7 @@ FORN-00463,2.0,8211300.0,Serviços de Tecnologia e Software,SAO PAULO,261707.59,
 FORN-01244,2.0,6821801.0,Engenharia e Manutenção Predial,JUNDIAI,350327.87,Alerta,True,Ativo,False
 FORN-00079,2.0,5211799.0,Engenharia e Manutenção Predial,SAO JOAQUIM DE BICAS,94900.68,Alerta,True,Ativo,False
 FORN-01005,2.0,5320201.0,"Marketing, Mídia e Eventos",SERRA,310702.89,Alerta,True,Ativo,False
-FORN-INV026,,,Consultoria e Auditoria Empresarial,,52545.28,Critico (CNPJ Invalido),False,Ativo,False
+FORN-INV026,0.0,,Consultoria e Auditoria Empresarial,,52545.28,Critico,False,Ativo,False
 FORN-00572,2.0,1412601.0,Suprimentos e Equipamentos de Escritório,TABATINGA,290556.91,Regular,True,Ativo,True
 FORN-00016,2.0,8650003.0,Consultoria e Auditoria Empresarial,SAO PAULO,51470.06,Alerta,True,Ativo,False
 FORN-00495,2.0,7020400.0,Consultoria e Auditoria Empresarial,ITAPEVA,127150.55,Regular,True,Ativo,True
@@ -141,7 +141,7 @@ FORN-01000,2.0,9602501.0,Serviços Jurídicos e Contábeis,PASSO FUNDO,121308.18
 FORN-00275,2.0,7112000.0,Serviços Jurídicos e Contábeis,PALHOCA,143896.78,Alerta,True,Ativo,False
 FORN-01192,2.0,9700500.0,Serviços de Tecnologia e Software,PELOTAS,172082.71,Alerta,True,Ativo,False
 FORN-00272,2.0,5320201.0,Serviços Jurídicos e Contábeis,SAO PAULO,314039.08,Alerta,True,Ativo,False
-FORN-INV009,,,Engenharia e Manutenção Predial,,82130.01,Critico (CNPJ Invalido),False,Ativo,False
+FORN-INV009,0.0,,Engenharia e Manutenção Predial,,82130.01,Critico,False,Ativo,False
 FORN-00238,2.0,2391503.0,Consultoria e Auditoria Empresarial,CASCAVEL,19430.97,Alerta,True,Ativo,False
 FORN-00586,2.0,4692300.0,Engenharia e Manutenção Predial,ARAPIRACA,64433.12,Alerta,True,Ativo,False
 FORN-01313,8.0,8219999.0,"Logística, Transporte e Frota",OURO PRETO,157770.9,Critico,True,Ativo,False
@@ -152,7 +152,7 @@ FORN-00783,2.0,4399103.0,Segurança Patrimonial e Portaria,CAMPINAS,67215.07,Ale
 FORN-01359,8.0,8230001.0,Suprimentos e Equipamentos de Escritório,COTIA,73339.42,Critico,True,Ativo,False
 FORN-01204,2.0,9521500.0,Engenharia e Manutenção Predial,FORTALEZA,85377.44,Alerta,True,Ativo,False
 FORN-00971,2.0,4723700.0,"Marketing, Mídia e Eventos",JUCURUTU,211139.87,Alerta,True,Ativo,False
-FORN-INV002,,,Suprimentos e Equipamentos de Escritório,,473583.57,Critico (CNPJ Invalido),False,Ativo,False
+FORN-INV002,0.0,,Suprimentos e Equipamentos de Escritório,,473583.57,Critico,False,Ativo,False
 FORN-00527,2.0,8599699.0,"Logística, Transporte e Frota",MOGI DAS CRUZES,111450.29,Alerta,True,Ativo,False
 FORN-01426,4.0,6821801.0,Consultoria e Auditoria Empresarial,UBERABA,619044.78,Critico,True,Ativo,False
 FORN-01171,2.0,2539001.0,"Marketing, Mídia e Eventos",ITAQUAQUECETUBA,187715.31,Alerta,True,Ativo,False
@@ -165,7 +165,7 @@ FORN-01027,2.0,5620104.0,Consultoria e Auditoria Empresarial,TOCANTINS,371545.93
 FORN-01402,4.0,4781400.0,"Marketing, Mídia e Eventos",ARARUNA,48023.75,Critico,True,Ativo,False
 FORN-00102,2.0,5611203.0,Engenharia e Manutenção Predial,URBANO SANTOS,197111.32,Alerta,True,Ativo,False
 FORN-00108,2.0,8219999.0,"Logística, Transporte e Frota",OSASCO,268574.85,Alerta,True,Ativo,False
-FORN-INV025,,,Suprimentos e Equipamentos de Escritório,,91455.75,Critico (CNPJ Invalido),False,Ativo,False
+FORN-INV025,0.0,,Suprimentos e Equipamentos de Escritório,,91455.75,Critico,False,Ativo,False
 FORN-01053,8.0,8219999.0,Serviços Jurídicos e Contábeis,PIRAPOZINHO,518638.53,Critico,True,Ativo,False
 FORN-00965,2.0,5611203.0,Segurança Patrimonial e Portaria,MARATAIZES,76317.39,Alerta,True,Ativo,False
 FORN-00381,2.0,4712100.0,Suprimentos e Equipamentos de Escritório,PRESIDENTE PRUDENTE,37635.02,Regular,True,Ativo,True
@@ -301,11 +301,11 @@ FORN-01151,2.0,4772500.0,Serviços Jurídicos e Contábeis,MOGI GUACU,236804.16,
 FORN-00825,2.0,1830003.0,Serviços Jurídicos e Contábeis,SAO PAULO,153758.94,Alerta,True,Ativo,False
 FORN-00383,2.0,9602501.0,"Marketing, Mídia e Eventos",VENANCIO AIRES,193451.85,Alerta,True,Ativo,False
 FORN-00539,2.0,7319002.0,Consultoria e Auditoria Empresarial,SOBRAL,122788.83,Alerta,True,Ativo,False
-FORN-INV029,,,"Logística, Transporte e Frota",,29121.57,Critico (CNPJ Invalido),False,Ativo,False
+FORN-INV029,0.0,,"Logística, Transporte e Frota",,29121.57,Critico,False,Ativo,False
 FORN-01113,2.0,4923002.0,"Marketing, Mídia e Eventos",SAO PAULO,60606.2,Alerta,True,Ativo,False
 FORN-00325,2.0,4729699.0,"Marketing, Mídia e Eventos",CUIABA,572658.63,Alerta,True,Ativo,False
 FORN-00362,2.0,8599604.0,Engenharia e Manutenção Predial,BELO HORIZONTE,200548.89,Regular,True,Ativo,True
-FORN-INV023,,,Consultoria e Auditoria Empresarial,,162677.18,Critico (CNPJ Invalido),False,Ativo,False
+FORN-INV023,0.0,,Consultoria e Auditoria Empresarial,,162677.18,Critico,False,Ativo,False
 FORN-01030,2.0,5819100.0,Serviços de Tecnologia e Software,NITEROI,332807.56,Regular,True,Ativo,True
 FORN-00708,2.0,8711502.0,"Logística, Transporte e Frota",VILA VELHA,313812.71,Alerta,True,Ativo,False
 FORN-00333,2.0,5912099.0,"Logística, Transporte e Frota",SUMARE,17609.65,Alerta,True,Ativo,False
@@ -329,9 +329,9 @@ FORN-00087,2.0,4781400.0,Suprimentos e Equipamentos de Escritório,RIBEIRAO PRET
 FORN-01422,4.0,4744099.0,Segurança Patrimonial e Portaria,CAMACARI,142390.05,Critico,True,Ativo,False
 FORN-00266,2.0,4752100.0,Serviços de Tecnologia e Software,RIO VERDE,258006.16,Alerta,True,Ativo,False
 FORN-00288,2.0,7020400.0,Engenharia e Manutenção Predial,CAMPINAS,155813.03,Alerta,True,Ativo,False
-FORN-INV019,,,"Logística, Transporte e Frota",,20693.04,Critico (CNPJ Invalido),False,Ativo,False
+FORN-INV019,0.0,,"Logística, Transporte e Frota",,20693.04,Critico,False,Ativo,False
 FORN-00893,2.0,8610101.0,Segurança Patrimonial e Portaria,PORTO ALEGRE,334185.18,Alerta,True,Ativo,False
-FORN-INV031,,,Suprimentos e Equipamentos de Escritório,,152391.38,Critico (CNPJ Invalido),False,Ativo,False
+FORN-INV031,0.0,,Suprimentos e Equipamentos de Escritório,,152391.38,Critico,False,Ativo,False
 FORN-00979,2.0,8219999.0,Segurança Patrimonial e Portaria,TRES DE MAIO,138463.07,Alerta,True,Ativo,False
 FORN-00535,2.0,4929901.0,"Marketing, Mídia e Eventos",DIAMANTE D'OESTE,278750.96,Alerta,True,Ativo,False
 FORN-01001,2.0,4712100.0,"Logística, Transporte e Frota",SALVADOR,51851.45,Regular,True,Ativo,True
@@ -376,7 +376,7 @@ FORN-00975,2.0,5611201.0,"Marketing, Mídia e Eventos",OURILANDIA DO NORTE,20702
 FORN-01058,2.0,4399103.0,Suprimentos e Equipamentos de Escritório,BRASILIA,107528.82,Alerta,True,Ativo,False
 FORN-00808,2.0,5620104.0,Suprimentos e Equipamentos de Escritório,POJUCA,482617.72,Alerta,True,Ativo,False
 FORN-01230,2.0,4541206.0,Serviços de Tecnologia e Software,BARRA DO GARCAS,109770.82,Alerta,True,Ativo,False
-FORN-INV016,,,Segurança Patrimonial e Portaria,,224340.57,Critico (CNPJ Invalido),False,Ativo,False
+FORN-INV016,0.0,,Segurança Patrimonial e Portaria,,224340.57,Critico,False,Ativo,False
 FORN-01437,4.0,4330403.0,Suprimentos e Equipamentos de Escritório,MAUA,81252.26,Critico,True,Ativo,True
 FORN-00180,2.0,8630503.0,"Logística, Transporte e Frota",PARAMIRIM,41629.99,Alerta,True,Ativo,False
 FORN-01356,8.0,9602501.0,Serviços Jurídicos e Contábeis,JOINVILLE,387043.14,Critico,True,Ativo,False
@@ -448,7 +448,7 @@ FORN-01084,2.0,5320201.0,Segurança Patrimonial e Portaria,MARACANAU,395329.73,A
 FORN-00991,2.0,9001901.0,"Logística, Transporte e Frota",FOZ DO IGUACU,304173.88,Alerta,True,Ativo,False
 FORN-00651,2.0,4781400.0,Suprimentos e Equipamentos de Escritório,NOVA FRIBURGO,31367.78,Regular,True,Ativo,True
 FORN-01189,2.0,4729699.0,Serviços Jurídicos e Contábeis,QUERENCIA,79449.43,Alerta,True,Ativo,False
-FORN-INV034,,,"Logística, Transporte e Frota",,77322.84,Critico (CNPJ Invalido),False,Ativo,False
+FORN-INV034,0.0,,"Logística, Transporte e Frota",,77322.84,Critico,False,Ativo,False
 FORN-00486,2.0,4753900.0,Consultoria e Auditoria Empresarial,CAMPOS DOS GOYTACAZES,431561.9,Alerta,True,Ativo,False
 FORN-00528,2.0,4781400.0,"Logística, Transporte e Frota",SAO PAULO,72490.0,Alerta,True,Ativo,False
 FORN-00200,2.0,7119799.0,Segurança Patrimonial e Portaria,BLUMENAU,287441.19,Alerta,True,Ativo,False
@@ -562,7 +562,7 @@ FORN-00013,2.0,5320202.0,"Marketing, Mídia e Eventos",RIO DE JANEIRO,336557.32,
 FORN-00172,2.0,5912099.0,Serviços Jurídicos e Contábeis,ESTRELA,18010.85,Alerta,True,Ativo,False
 FORN-00261,2.0,4520001.0,"Marketing, Mídia e Eventos",ITAJAI,186815.53,Alerta,True,Ativo,False
 FORN-00820,2.0,7311400.0,Segurança Patrimonial e Portaria,SANTA MARIA,88487.68,Alerta,True,Ativo,False
-FORN-INV030,,,Segurança Patrimonial e Portaria,,130993.95,Critico (CNPJ Invalido),False,Ativo,False
+FORN-INV030,0.0,,Segurança Patrimonial e Portaria,,130993.95,Critico,False,Ativo,False
 FORN-00797,2.0,4759899.0,Consultoria e Auditoria Empresarial,RIO DOS CEDROS,499197.94,Alerta,True,Ativo,False
 FORN-00139,2.0,4930202.0,"Marketing, Mídia e Eventos",ALEGRETE,96355.41,Alerta,True,Ativo,False
 FORN-00550,2.0,5620104.0,Suprimentos e Equipamentos de Escritório,MACEIO,281365.27,Alerta,True,Ativo,False
@@ -581,20 +581,20 @@ FORN-00300,2.0,4924800.0,"Marketing, Mídia e Eventos",ALTA FLORESTA,31057.99,Al
 FORN-00994,2.0,5620104.0,Serviços de Tecnologia e Software,NOVA RAMADA,175588.96,Alerta,True,Ativo,False
 FORN-01033,2.0,4781400.0,Serviços Jurídicos e Contábeis,MAIRINQUE,62047.72,Alerta,True,Ativo,False
 FORN-00671,2.0,4930202.0,Suprimentos e Equipamentos de Escritório,ABREU E LIMA,49272.44,Alerta,True,Ativo,False
-FORN-INV015,,,Engenharia e Manutenção Predial,,88635.5,Critico (CNPJ Invalido),False,Ativo,False
+FORN-INV015,0.0,,Engenharia e Manutenção Predial,,88635.5,Critico,False,Ativo,False
 FORN-00947,2.0,4923002.0,Segurança Patrimonial e Portaria,LAVRAS,41497.45,Alerta,True,Ativo,False
 FORN-01270,2.0,7319003.0,Serviços Jurídicos e Contábeis,DIVINOPOLIS,77070.25,Alerta,True,Ativo,False
 FORN-00574,2.0,5912099.0,Serviços de Tecnologia e Software,GUARAPUAVA,190156.29,Alerta,True,Ativo,False
 FORN-00504,2.0,8219999.0,Engenharia e Manutenção Predial,BARRETOS,317563.29,Alerta,True,Ativo,False
 FORN-01038,2.0,7490105.0,Serviços de Tecnologia e Software,CURITIBA,247224.56,Alerta,True,Ativo,False
 FORN-00004,2.0,4781400.0,Serviços de Tecnologia e Software,SANTA RITA,179329.66,Alerta,True,Ativo,False
-FORN-INV004,,,Suprimentos e Equipamentos de Escritório,,265524.02,Critico (CNPJ Invalido),False,Ativo,False
+FORN-INV004,0.0,,Suprimentos e Equipamentos de Escritório,,265524.02,Critico,False,Ativo,False
 FORN-00468,2.0,4781400.0,"Logística, Transporte e Frota",EMBU DAS ARTES,380310.46,Alerta,True,Ativo,False
 FORN-00322,2.0,5612100.0,"Marketing, Mídia e Eventos",OLINDA,240692.87,Alerta,True,Ativo,False
 FORN-00006,2.0,7319099.0,Serviços de Tecnologia e Software,REGINOPOLIS,45527.33,Alerta,True,Ativo,False
 FORN-00974,2.0,5590699.0,Segurança Patrimonial e Portaria,ANGRA DOS REIS,58559.21,Alerta,True,Ativo,False
 FORN-00548,2.0,5611201.0,Consultoria e Auditoria Empresarial,SAO JOSE DOS CAMPOS,215419.43,Alerta,True,Ativo,False
-FORN-INV012,,,Engenharia e Manutenção Predial,,217934.94,Critico (CNPJ Invalido),False,Ativo,False
+FORN-INV012,0.0,,Engenharia e Manutenção Predial,,217934.94,Critico,False,Ativo,False
 FORN-00040,2.0,4679601.0,Consultoria e Auditoria Empresarial,GUARULHOS,119416.35,Alerta,True,Ativo,False
 FORN-00543,2.0,4399199.0,Suprimentos e Equipamentos de Escritório,JATAI,61728.67,Alerta,True,Ativo,False
 FORN-00243,2.0,4930202.0,Engenharia e Manutenção Predial,IGARAPE,458431.78,Alerta,True,Ativo,False
@@ -605,21 +605,21 @@ FORN-00847,2.0,4530703.0,Serviços de Tecnologia e Software,SALVADOR,31058.42,Al
 FORN-01091,2.0,4930202.0,"Logística, Transporte e Frota",MACEIO,529801.68,Regular,True,Ativo,True
 FORN-01366,8.0,5320201.0,Serviços Jurídicos e Contábeis,INHAMBUPE,40391.81,Critico,True,Ativo,False
 FORN-00582,2.0,8219999.0,"Marketing, Mídia e Eventos",SANTA ADELIA,719457.56,Alerta,True,Ativo,False
-FORN-INV010,,,Segurança Patrimonial e Portaria,,67527.11,Critico (CNPJ Invalido),False,Ativo,False
+FORN-INV010,0.0,,Segurança Patrimonial e Portaria,,67527.11,Critico,False,Ativo,False
 FORN-00789,2.0,4330404.0,Segurança Patrimonial e Portaria,PIMENTA BUENO,126583.35,Alerta,True,Ativo,False
 FORN-01389,8.0,6821801.0,Consultoria e Auditoria Empresarial,EUSEBIO,645109.88,Critico,True,Ativo,False
 FORN-00377,2.0,8219999.0,"Marketing, Mídia e Eventos",OSASCO,350434.69,Alerta,True,Ativo,False
 FORN-00315,2.0,4923002.0,Serviços Jurídicos e Contábeis,RIO DE JANEIRO,340398.18,Alerta,True,Ativo,False
 FORN-00443,2.0,4789007.0,Consultoria e Auditoria Empresarial,BATURITE,99390.76,Alerta,True,Ativo,False
 FORN-00320,2.0,8211300.0,"Logística, Transporte e Frota",BIGUACU,66841.08,Alerta,True,Ativo,False
-FORN-INV014,,,Serviços Jurídicos e Contábeis,,211827.86,Critico (CNPJ Invalido),False,Ativo,False
+FORN-INV014,0.0,,Serviços Jurídicos e Contábeis,,211827.86,Critico,False,Ativo,False
 FORN-00794,2.0,2349499.0,"Logística, Transporte e Frota",ALVARES MACHADO,185161.98,Alerta,True,Ativo,False
 FORN-01133,2.0,4772500.0,"Marketing, Mídia e Eventos",NOVA LIMA,30213.5,Alerta,True,Ativo,False
 FORN-00425,2.0,4744099.0,"Logística, Transporte e Frota",BELO HORIZONTE,25670.71,Alerta,True,Ativo,False
 FORN-00554,2.0,7490104.0,Engenharia e Manutenção Predial,JUNDIAI,163160.62,Alerta,True,Ativo,False
 FORN-00595,2.0,1091102.0,"Logística, Transporte e Frota",FORTALEZA,423775.34,Alerta,True,Ativo,False
 FORN-00894,2.0,8630503.0,Serviços Jurídicos e Contábeis,FORTALEZA,106105.65,Alerta,True,Ativo,False
-FORN-INV017,,,"Marketing, Mídia e Eventos",,35368.52,Critico (CNPJ Invalido),False,Ativo,False
+FORN-INV017,0.0,,"Marketing, Mídia e Eventos",,35368.52,Critico,False,Ativo,False
 FORN-01218,2.0,4772500.0,Serviços Jurídicos e Contábeis,RIO DE JANEIRO,220379.25,Alerta,True,Ativo,False
 FORN-01165,2.0,4752100.0,"Logística, Transporte e Frota",SAO PAULO,46546.52,Alerta,True,Ativo,False
 FORN-00228,2.0,4723700.0,Serviços de Tecnologia e Software,GUARATINGUETA,104889.75,Alerta,True,Ativo,False
@@ -656,11 +656,11 @@ FORN-00007,2.0,8630504.0,Consultoria e Auditoria Empresarial,PALMEIRA,25770.98,A
 FORN-00312,2.0,5611203.0,"Logística, Transporte e Frota",PAULISTA,29706.93,Alerta,True,Ativo,False
 FORN-01168,2.0,4781400.0,Engenharia e Manutenção Predial,LAJEADO,142475.15,Alerta,True,Ativo,False
 FORN-00939,2.0,4789005.0,Serviços Jurídicos e Contábeis,ITAPEVI,37550.59,Alerta,True,Ativo,False
-FORN-INV013,,,"Marketing, Mídia e Eventos",,192402.0,Critico (CNPJ Invalido),False,Ativo,False
+FORN-INV013,0.0,,"Marketing, Mídia e Eventos",,192402.0,Critico,False,Ativo,False
 FORN-00216,2.0,1412601.0,Segurança Patrimonial e Portaria,NOVA TRENTO,63748.28,Alerta,True,Ativo,False
 FORN-01321,8.0,5320201.0,Segurança Patrimonial e Portaria,FORTALEZA,66088.89,Critico,True,Ativo,False
 FORN-00028,2.0,4520001.0,Engenharia e Manutenção Predial,CAMBUQUIRA,144965.25,Regular,True,Ativo,True
-FORN-INV001,,,Serviços de Tecnologia e Software,,25929.56,Critico (CNPJ Invalido),False,Ativo,False
+FORN-INV001,0.0,,Serviços de Tecnologia e Software,,25929.56,Critico,False,Ativo,False
 FORN-01025,2.0,4781400.0,Segurança Patrimonial e Portaria,CAPINZAL,534691.26,Alerta,True,Ativo,False
 FORN-00786,2.0,8650004.0,Consultoria e Auditoria Empresarial,RIO DE JANEIRO,445357.71,Alerta,True,Ativo,False
 FORN-00639,2.0,8219999.0,Suprimentos e Equipamentos de Escritório,RIO DE JANEIRO,71461.43,Alerta,True,Ativo,False
@@ -712,7 +712,7 @@ FORN-00520,2.0,4755503.0,"Logística, Transporte e Frota",RIO DE JANEIRO,44341.7
 FORN-00813,2.0,9602501.0,"Logística, Transporte e Frota",TRES RIOS,38966.27,Alerta,True,Ativo,False
 FORN-00768,2.0,7319002.0,Engenharia e Manutenção Predial,SAO PAULO,391860.12,Alerta,True,Ativo,False
 FORN-00183,2.0,5612100.0,Engenharia e Manutenção Predial,SERRA,480514.27,Alerta,True,Ativo,False
-FORN-INV022,,,Suprimentos e Equipamentos de Escritório,,80536.04,Critico (CNPJ Invalido),False,Ativo,False
+FORN-INV022,0.0,,Suprimentos e Equipamentos de Escritório,,80536.04,Critico,False,Ativo,False
 FORN-00111,2.0,6190699.0,Suprimentos e Equipamentos de Escritório,CRUZ,76585.25,Alerta,True,Ativo,False
 FORN-00043,2.0,6911701.0,Serviços Jurídicos e Contábeis,CAMPOS DOS GOYTACAZES,21298.87,Alerta,True,Ativo,False
 FORN-01007,2.0,4783101.0,Segurança Patrimonial e Portaria,SAO GONCALO,227139.69,Alerta,True,Ativo,False
@@ -722,7 +722,7 @@ FORN-00053,2.0,4930201.0,Serviços de Tecnologia e Software,MANTENOPOLIS,519917.
 FORN-00546,2.0,8112500.0,Suprimentos e Equipamentos de Escritório,PORTO ALEGRE,94815.68,Alerta,True,Ativo,False
 FORN-01132,2.0,9609207.0,Consultoria e Auditoria Empresarial,FLORIANOPOLIS,138287.85,Alerta,True,Ativo,False
 FORN-01158,2.0,5620101.0,Consultoria e Auditoria Empresarial,RIO DE JANEIRO,397958.34,Alerta,True,Ativo,False
-FORN-INV003,,,Serviços Jurídicos e Contábeis,,82688.68,Critico (CNPJ Invalido),False,Ativo,False
+FORN-INV003,0.0,,Serviços Jurídicos e Contábeis,,82688.68,Critico,False,Ativo,False
 FORN-00911,2.0,9609208.0,Serviços Jurídicos e Contábeis,CUIABA,175617.2,Alerta,True,Ativo,False
 FORN-00184,2.0,4520001.0,Serviços Jurídicos e Contábeis,PENHA,392700.07,Alerta,True,Ativo,False
 FORN-00138,2.0,4399103.0,"Logística, Transporte e Frota",TANGARA DA SERRA,233535.66,Alerta,True,Ativo,False
@@ -796,7 +796,7 @@ FORN-01194,2.0,4930202.0,Engenharia e Manutenção Predial,PENAFORTE,189599.31,A
 FORN-00405,2.0,7723300.0,Serviços de Tecnologia e Software,APARECIDA DE GOIANIA,84432.38,Alerta,True,Ativo,False
 FORN-01304,8.0,1094500.0,Consultoria e Auditoria Empresarial,PORTO VELHO,155283.16,Critico,True,Ativo,False
 FORN-00934,2.0,7319002.0,Serviços de Tecnologia e Software,MANAUS,149261.02,Alerta,True,Ativo,False
-FORN-INV021,,,Serviços Jurídicos e Contábeis,,74772.15,Critico (CNPJ Invalido),False,Ativo,False
+FORN-INV021,0.0,,Serviços Jurídicos e Contábeis,,74772.15,Critico,False,Ativo,False
 FORN-00105,2.0,8650003.0,Consultoria e Auditoria Empresarial,SANTOS,443627.8,Alerta,True,Ativo,False
 FORN-00610,8.0,9700500.0,"Logística, Transporte e Frota",BARRETOS,226042.34,Critico,True,Ativo,False
 FORN-01456,3.0,8630599.0,Suprimentos e Equipamentos de Escritório,SAO PAULO,496122.99,Critico,True,Ativo,False
@@ -847,7 +847,7 @@ FORN-00941,2.0,9603304.0,Serviços de Tecnologia e Software,PRAIA GRANDE,72650.6
 FORN-01050,2.0,7020400.0,"Marketing, Mídia e Eventos",BELO HORIZONTE,18869.8,Alerta,True,Ativo,False
 FORN-00923,2.0,6202300.0,"Logística, Transporte e Frota",SAO BERNARDO DO CAMPO,419917.11,Alerta,True,Ativo,False
 FORN-00899,2.0,4929902.0,Consultoria e Auditoria Empresarial,VITORIA DE SANTO ANTAO,17355.69,Alerta,True,Ativo,False
-FORN-INV028,,,Consultoria e Auditoria Empresarial,,50939.01,Critico (CNPJ Invalido),False,Ativo,False
+FORN-INV028,0.0,,Consultoria e Auditoria Empresarial,,50939.01,Critico,False,Ativo,False
 FORN-00008,2.0,4321500.0,"Marketing, Mídia e Eventos",FORMOSA,377021.56,Alerta,True,Ativo,False
 FORN-00863,2.0,4754702.0,"Marketing, Mídia e Eventos",FEIRA DE SANTANA,148768.38,Alerta,True,Ativo,False
 FORN-00668,2.0,8291100.0,Engenharia e Manutenção Predial,BELO HORIZONTE,46529.68,Regular,True,Ativo,True
@@ -896,7 +896,7 @@ FORN-00369,2.0,8712300.0,Engenharia e Manutenção Predial,JANDIRA,54221.33,Aler
 FORN-00508,2.0,4520003.0,Serviços Jurídicos e Contábeis,CANTAGALO,326219.01,Alerta,True,Ativo,False
 FORN-01182,2.0,4723700.0,"Marketing, Mídia e Eventos",BELO HORIZONTE,90304.1,Alerta,True,Ativo,False
 FORN-00505,2.0,4930201.0,Serviços Jurídicos e Contábeis,SAO PAULO,222779.33,Alerta,True,Ativo,False
-FORN-INV024,,,Consultoria e Auditoria Empresarial,,79032.24,Critico (CNPJ Invalido),False,Ativo,False
+FORN-INV024,0.0,,Consultoria e Auditoria Empresarial,,79032.24,Critico,False,Ativo,False
 FORN-00348,2.0,4724500.0,"Marketing, Mídia e Eventos",RIBEIRAO,23345.22,Alerta,True,Ativo,False
 FORN-00387,2.0,4721104.0,Suprimentos e Equipamentos de Escritório,FLORES DE GOIAS,74640.1,Regular,True,Ativo,True
 FORN-00001,2.0,5912099.0,Engenharia e Manutenção Predial,FORTALEZA,99468.26,Alerta,True,Ativo,False
@@ -1094,7 +1094,7 @@ FORN-00697,2.0,4724500.0,Suprimentos e Equipamentos de Escritório,FERRAZ DE VAS
 FORN-00997,2.0,4399103.0,Segurança Patrimonial e Portaria,MACHADO,463685.97,Alerta,True,Ativo,False
 FORN-00154,2.0,9602501.0,Suprimentos e Equipamentos de Escritório,SUMARE,136008.98,Alerta,True,Ativo,False
 FORN-01300,2.0,8599604.0,Serviços Jurídicos e Contábeis,BELO HORIZONTE,235643.09,Alerta,True,Ativo,False
-FORN-INV033,,,Serviços de Tecnologia e Software,,94721.31,Critico (CNPJ Invalido),False,Ativo,False
+FORN-INV033,0.0,,Serviços de Tecnologia e Software,,94721.31,Critico,False,Ativo,False
 FORN-00790,2.0,4772500.0,Engenharia e Manutenção Predial,BAYEUX,544708.27,Alerta,True,Ativo,False
 FORN-00581,2.0,8630502.0,Serviços Jurídicos e Contábeis,IBATE,125625.65,Alerta,True,Ativo,False
 FORN-00704,2.0,4724500.0,Suprimentos e Equipamentos de Escritório,SAPUCAIA,40982.88,Regular,True,Ativo,True
@@ -1105,7 +1105,7 @@ FORN-00802,2.0,9602501.0,Segurança Patrimonial e Portaria,BELO HORIZONTE,44791.
 FORN-00513,2.0,4633801.0,"Logística, Transporte e Frota",PINDORAMA,500823.31,Alerta,True,Ativo,False
 FORN-00634,2.0,4923002.0,Serviços Jurídicos e Contábeis,MANAUS,151715.31,Alerta,True,Ativo,False
 FORN-01111,2.0,161002.0,Segurança Patrimonial e Portaria,CAMPINAS,319544.34,Alerta,True,Ativo,False
-FORN-INV007,,,"Marketing, Mídia e Eventos",,180935.21,Critico (CNPJ Invalido),False,Ativo,False
+FORN-INV007,0.0,,"Marketing, Mídia e Eventos",,180935.21,Critico,False,Ativo,False
 FORN-00791,2.0,6810201.0,Serviços Jurídicos e Contábeis,SAO PAULO,44964.52,Alerta,True,Ativo,False
 FORN-00117,2.0,5620101.0,Serviços de Tecnologia e Software,SAO PAULO,308034.41,Alerta,True,Ativo,False
 FORN-00741,2.0,4399103.0,Engenharia e Manutenção Predial,TUBARAO,126808.99,Alerta,True,Ativo,False
@@ -1125,7 +1125,7 @@ FORN-01291,2.0,1091102.0,Serviços de Tecnologia e Software,JOINVILLE,106027.95,
 FORN-00992,2.0,5320201.0,"Logística, Transporte e Frota",MARILIA,228560.79,Regular,True,Ativo,True
 FORN-00877,2.0,9700500.0,Segurança Patrimonial e Portaria,CONTAGEM,241562.99,Alerta,True,Ativo,False
 FORN-00774,2.0,2539001.0,Serviços Jurídicos e Contábeis,PINHAIS,106136.63,Alerta,True,Ativo,False
-FORN-INV035,,,Serviços de Tecnologia e Software,,258825.53,Critico (CNPJ Invalido),False,Ativo,False
+FORN-INV035,0.0,,Serviços de Tecnologia e Software,,258825.53,Critico,False,Ativo,False
 FORN-00005,8.0,5611203.0,Suprimentos e Equipamentos de Escritório,RIO DE JANEIRO,45532.48,Critico,True,Ativo,False
 FORN-01004,2.0,4635401.0,Suprimentos e Equipamentos de Escritório,VIAMAO,252169.4,Alerta,True,Ativo,False
 FORN-01302,8.0,8599603.0,Segurança Patrimonial e Portaria,SAO PAULO,510394.93,Critico,True,Ativo,False
@@ -1179,7 +1179,7 @@ FORN-00018,2.0,8650003.0,"Marketing, Mídia e Eventos",SANTA RITA DO SAPUCAI,148
 FORN-00128,2.0,8512100.0,Consultoria e Auditoria Empresarial,ALTAMIRA,369842.09,Alerta,True,Ativo,False
 FORN-00928,2.0,9602502.0,Serviços Jurídicos e Contábeis,CONTAGEM,155415.8,Alerta,True,Ativo,False
 FORN-00981,2.0,4724500.0,Serviços de Tecnologia e Software,SAO PAULO,88229.74,Alerta,True,Ativo,False
-FORN-INV005,,,Engenharia e Manutenção Predial,,203003.61,Critico (CNPJ Invalido),False,Ativo,False
+FORN-INV005,0.0,,Engenharia e Manutenção Predial,,203003.61,Critico,False,Ativo,False
 FORN-00191,2.0,9602501.0,"Marketing, Mídia e Eventos",ITAMOGI,32590.71,Alerta,True,Ativo,False
 FORN-01140,2.0,4772500.0,Suprimentos e Equipamentos de Escritório,PARATI,176547.85,Regular,True,Ativo,True
 FORN-00993,8.0,7319002.0,Serviços Jurídicos e Contábeis,SAO PAULO,72177.65,Critico,True,Ativo,False
@@ -1218,7 +1218,7 @@ FORN-00750,2.0,8211300.0,Segurança Patrimonial e Portaria,SAO BERNARDO DO CAMPO
 FORN-01046,2.0,5320201.0,Consultoria e Auditoria Empresarial,SALVADOR,187216.17,Alerta,True,Ativo,False
 FORN-00470,2.0,9602502.0,Serviços Jurídicos e Contábeis,SAO SEBASTIAO DO PARAISO,609516.62,Alerta,True,Ativo,False
 FORN-01279,2.0,1539400.0,Consultoria e Auditoria Empresarial,NOVO HAMBURGO,42671.2,Alerta,True,Ativo,False
-FORN-INV008,,,"Marketing, Mídia e Eventos",,272956.29,Critico (CNPJ Invalido),False,Ativo,False
+FORN-INV008,0.0,,"Marketing, Mídia e Eventos",,272956.29,Critico,False,Ativo,False
 FORN-00688,2.0,4789001.0,Serviços Jurídicos e Contábeis,PATOS,74125.51,Alerta,True,Ativo,False
 FORN-01379,8.0,1412602.0,Serviços Jurídicos e Contábeis,SAO PAULO,95116.19,Critico,True,Ativo,False
 FORN-00640,2.0,4772500.0,"Marketing, Mídia e Eventos",GUARULHOS,100259.7,Alerta,True,Ativo,False
@@ -1268,7 +1268,7 @@ FORN-00263,2.0,4744099.0,Segurança Patrimonial e Portaria,SAO PEDRO,42165.71,Al
 FORN-00151,2.0,8219999.0,"Logística, Transporte e Frota",ROSARIO DO SUL,444994.97,Alerta,True,Ativo,False
 FORN-00473,2.0,7420001.0,Segurança Patrimonial e Portaria,CACHOEIRAS DE MACACU,22941.42,Alerta,True,Ativo,False
 FORN-00641,2.0,8599699.0,"Logística, Transporte e Frota",RIO POMBA,18649.56,Alerta,True,Ativo,False
-FORN-INV020,,,"Logística, Transporte e Frota",,67091.5,Critico (CNPJ Invalido),False,Ativo,False
+FORN-INV020,0.0,,"Logística, Transporte e Frota",,67091.5,Critico,False,Ativo,False
 FORN-01411,4.0,4781400.0,Serviços Jurídicos e Contábeis,ITAITINGA,56484.93,Critico,True,Ativo,False
 FORN-00551,2.0,4520002.0,"Logística, Transporte e Frota",MARILIA,147175.77,Regular,True,Ativo,True
 FORN-00929,2.0,4930201.0,"Logística, Transporte e Frota",BIGUACU,195665.52,Regular,True,Ativo,True
@@ -1415,7 +1415,7 @@ FORN-00296,2.0,4930201.0,"Logística, Transporte e Frota",IBIRITE,147957.65,Regu
 FORN-01017,2.0,4520002.0,Serviços Jurídicos e Contábeis,CUIABA,50847.51,Alerta,True,Ativo,False
 FORN-01276,2.0,4321500.0,"Marketing, Mídia e Eventos",FARROUPILHA,34953.64,Alerta,True,Ativo,False
 FORN-00456,2.0,4723700.0,Suprimentos e Equipamentos de Escritório,RIO DE JANEIRO,137130.92,Regular,True,Ativo,True
-FORN-INV032,,,Consultoria e Auditoria Empresarial,,135949.25,Critico (CNPJ Invalido),False,Ativo,False
+FORN-INV032,0.0,,Consultoria e Auditoria Empresarial,,135949.25,Critico,False,Ativo,False
 FORN-00816,2.0,4321500.0,Engenharia e Manutenção Predial,SAO JOSE,146679.25,Regular,True,Ativo,True
 FORN-00270,2.0,8030700.0,Serviços Jurídicos e Contábeis,PARAGOMINAS,77561.18,Alerta,True,Ativo,False
 FORN-00996,2.0,5320201.0,Serviços Jurídicos e Contábeis,FORTALEZA,32289.13,Alerta,True,Ativo,False
@@ -1435,7 +1435,7 @@ FORN-00206,2.0,8211300.0,"Logística, Transporte e Frota",ARACAJU,16663.13,Alert
 FORN-00035,2.0,9700500.0,Consultoria e Auditoria Empresarial,CORREIA PINTO,621713.46,Alerta,True,Ativo,False
 FORN-00776,2.0,7020400.0,"Marketing, Mídia e Eventos",FLORIANOPOLIS,44235.92,Alerta,True,Ativo,False
 FORN-00509,2.0,7319002.0,Segurança Patrimonial e Portaria,RIO BRANCO,553512.93,Alerta,True,Ativo,False
-FORN-INV011,,,Suprimentos e Equipamentos de Escritório,,152167.56,Critico (CNPJ Invalido),False,Ativo,False
+FORN-INV011,0.0,,Suprimentos e Equipamentos de Escritório,,152167.56,Critico,False,Ativo,False
 FORN-01391,8.0,3314706.0,Engenharia e Manutenção Predial,SAO PAULO,63465.64,Critico,True,Ativo,True
 FORN-00092,2.0,7319002.0,Suprimentos e Equipamentos de Escritório,SAO PAULO,239842.74,Alerta,True,Ativo,False
 FORN-01364,8.0,4520005.0,Consultoria e Auditoria Empresarial,SAO LOURENCO DO OESTE,194726.04,Critico,True,Ativo,False
@@ -1487,7 +1487,7 @@ FORN-00872,2.0,4772500.0,Consultoria e Auditoria Empresarial,CRICIUMA,71831.65,A
 FORN-01124,2.0,7729202.0,Segurança Patrimonial e Portaria,SANTA ROSA DE VITERBO,313473.74,Alerta,True,Ativo,False
 FORN-01397,8.0,4541206.0,Serviços de Tecnologia e Software,FORTALEZA,116461.89,Critico,True,Ativo,False
 FORN-00088,2.0,4520006.0,Consultoria e Auditoria Empresarial,IRATI,197680.08,Alerta,True,Ativo,False
-FORN-INV018,,,Segurança Patrimonial e Portaria,,114360.28,Critico (CNPJ Invalido),False,Ativo,False
+FORN-INV018,0.0,,Segurança Patrimonial e Portaria,,114360.28,Critico,False,Ativo,False
 FORN-00331,2.0,8650004.0,Serviços de Tecnologia e Software,SAO PAULO,94202.54,Alerta,True,Ativo,False
 FORN-01239,2.0,4631100.0,"Logística, Transporte e Frota",CATARINA,635654.82,Alerta,True,Ativo,False
 FORN-00467,2.0,8610102.0,"Marketing, Mídia e Eventos",NITEROI,75564.45,Alerta,True,Ativo,False
