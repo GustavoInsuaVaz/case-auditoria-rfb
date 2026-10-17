@@ -19,6 +19,8 @@ def executar_gold():
 
     print(f"[GOLD] Carregando dados da camada Silver para modelagem: {origem}")
     df = pd.read_csv(origem, dtype={'CNPJ_LIMPO': str, 'CNAE_PRINCIPAL_CODIGO': str})
+    df['DESCRICAO_SITUACAO'] = df['DESCRICAO_SITUACAO'].fillna('CNPJ INVALIDO')
+    df['SITUACAO_CADASTRAL'] = df['SITUACAO_CADASTRAL'].fillna('0.0')
     df['CNPJ_LIMPO'] = df['CNPJ_LIMPO'].astype(str).str.zfill(14)
 
     # Garantindo que colunas criticas de enriquecimento existam (com valores padroes se nao existirem)
