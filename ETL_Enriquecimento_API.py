@@ -56,6 +56,7 @@ def executar_enriquecimento():
                 'CNAE_PRINCIPAL_CODIGO': dados.get('cnae_fiscal'),
                 'CNAE_PRINCIPAL_DESCRICAO': dados.get('cnae_fiscal_descricao'),
                 'CNAES_SECUNDARIOS': ",".join([str(c.get('codigo')) for c in dados.get('cnaes_secundarios', []) if c.get('codigo')]),
+                'DESCRICAO_CNAES_SECUNDARIOS': ",".join([str(c.get('descricao')) for c in dados.get('cnaes_secundarios', []) if c.get('descricao')]),
                 'UF_RFB': dados.get('uf'),
                 'MUNICIPIO_RFB': dados.get('municipio')
             })
