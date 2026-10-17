@@ -6,6 +6,7 @@ Preservando todas as colunas operacionais da Silver e garantindo que o app.py ac
 import os
 import pandas as pd
 import numpy as np
+import unicodedata
 
 SILVER_DIR = 'medallion/silver'
 GOLD_DIR = 'medallion/gold'
@@ -169,12 +170,34 @@ def executar_gold():
     # 2. Dimensão CNAE
     print("[GOLD] Gerando Dimensao CNAE...")
     dim_cnae = df_bridge[['CNAE_CODIGO', 'CNAE_DESCRICAO']].dropna()
-    dim_cnae = df_bridge.drop_duplicates(subset=['CNAE_CODIGO'], keep='first')
+    dim_cnae = dim_cnae.drop_duplicates(subset=['CNAE_CODIGO'], keep='first')
 
     # 3. Dimensão Geografia
     print("[GOLD] Gerando Dimensao Geografia...")
     dim_geo = df[['UF_RFB', 'MUNICIPIO_RFB']].dropna().drop_duplicates().reset_index(drop=True)
     dim_geo['ID_GEOGRAFIA'] = dim_geo.index + 1
+
+    # Dicionário de mapeamento de siglas para nomes dos estados
+    uf_para_estado = {
+        'AC': 'Acre', 'AL': 'Alagoas', 'AP': 'Amapá', 'AM': 'Amazonas', 'BA': 'Bahia',
+        'CE': 'Ceará', 'DF': 'Distrito Federal', 'ES': 'Espírito Santo', 'GO': 'Goiás',
+        'MA': 'Maranhão', 'MT': 'Mato Grosso', 'MS': 'Mato Grosso do Sul', 'MG': 'Minas Gerais',
+        'PA': 'Pará', 'PB': 'Paraíba', 'PR': 'Paraná', 'PE': 'Pernambuco', 'PI': 'Piauí',
+        'RJ': 'Rio de Janeiro', 'RN': 'Rio Grande do Norte', 'RS': 'Rio Grande do Sul',
+        'RO': 'Rondônia', 'RR': 'Roraima', 'SC': 'Santa Catarina', 'SP': 'São Paulo',
+        'SE': 'Sergipe', 'TO': 'Tocantins'
+    }
+
+    def remover_acentos(texto):
+        if not isinstance(texto, str):
+            return texto
+        nfkd = unicodedata.normalize('NFKD', texto)
+        return ''.join([c for c in nfkd if not unicodedata.combining(c)]).title()
+
+    # 1. Mapeia a sigla para o nome completo
+    # 2. Aplica a remoção de acentos e formatação title case
+    dim_geo['estado'] = dim_geo['UF_RFB'].str.upper().map(uf_para_estado).apply(remover_acentos)
+
 
     # 5. Tabela Fato Completa (Mantendo todas as colunas de auditoria e os metadados de negocio)
     print("[GOLD] Gerando Tabela Fato...")
