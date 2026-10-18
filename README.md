@@ -31,6 +31,9 @@ Entretanto, chamadas a APIs públicas exigem técnicas de tolerância a falhas. 
 * **Rate Limiting (Status 429)**: Mecanismo de *backoff* temporizado (`time.sleep`) para aguardar o reestabelecimento da taxa de requisições permitida.
 * **Tratamento de Indisponibilidade do Serviço (Erros 500/503)**: A rotina foi desenvolvida para tratar instabilidades internas do servidor remoto. Se a API retornar um erro `500` (Internal Server Error) ou `503` (Service Unavailable), o pipeline captura a exceção de forma defensiva, salvando o estado consolidado até o momento (*checkpointing*) e encerrando graciosamente sem corromper a base de dados local ou interromper a execução do fluxo operacional de maneira catastrófica.
 
+
+Para os dados de CNAE, foi realizada consulta no site de categorias de CNAE do IBGE.
+
 ---
 
 ## 🖥️ Aplicativo Visual Interativo (app.py)
@@ -45,7 +48,7 @@ O aplicativo visual foi desenvolvido em **Streamlit** e serve como a camada fina
 
 ---
 
-## 🧭 Como Executar Localmente (COMO_EXECUTAR.txt)
+## 🧭 Como Executar Localmente o app.py (COMO_EXECUTAR.txt)
 
 Para garantir a portabilidade do projeto localmente sem as dependências diretas de conexão externa do Colab:
 
@@ -59,7 +62,7 @@ Para garantir a portabilidade do projeto localmente sem as dependências diretas
    streamlit run app.py --server.port 8502 --server.enableCORS false --server.enableXsrfProtection false
    ```
 3. **Funcionamento 100% Offline**:
-   O `app.py` lê os dados pré-gerados da pasta `medallion/gold/fato_fornecedores_auditoria.csv`. Mantendo essa pasta junto com o script no seu computador, o dashboard funciona imediatamente sem a necessidade de novas consultas externas de API.
+   O `app.py` lê os dados pré-gerados da pasta `medallion/gold`. Mantendo essa pasta junto com o script no seu computador, o dashboard funciona imediatamente sem a necessidade de novas consultas externas de API.
 
 ---
 
